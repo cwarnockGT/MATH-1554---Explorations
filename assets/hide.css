@@ -1,0 +1,5 @@
+v.printout.handout header.page-title,
+div.printout.handout h1,
+div.printout.handout h2 {
+  display: none !important;
+}
