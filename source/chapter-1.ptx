@@ -10,8 +10,8 @@
   </section>
   
   <section xml:id="sec-1-2">
-    <title>Systems of Linear Equations</title>
-      <xi:include href="./chapter-1-notes/section-1-2.ptx" />
+    <title>Row Reduction and Echelon Forms</title>
+      <xi:include href="./chapter-1-notes/section-1-2-b.ptx" />
   </section>
   
   

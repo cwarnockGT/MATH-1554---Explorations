@@ -13,6 +13,11 @@
 
         <!--<journal name="ams" /> -->
 
-        <css-addition href="assets/hide" />
+        <css-addition href="assets/hide.css" />
     </common>
+
+    <html embed-button="yes">
+
+
+    </html>
 </publication>
