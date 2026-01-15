@@ -251,6 +251,123 @@ var ptx_lunr_docs = [
   "number": "1.2.9",
   "title": "Existence and Uniqueness of Solutions.",
   "body": " Existence and Uniqueness of Solutions   A linear system is consistent if and only if the last column of the augmented matrix does not have a pivot. Equivalently, the RREF of the augmented matrix does not contain a row of the form .  If a linear system is consistent, then:   It has a unique solution if and only if (iff) there are .  Otherwise, it has many solutions parameterized by the free variables.    "
+},
+{
+  "id": "sec-1-3",
+  "level": "1",
+  "url": "sec-1-3.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Vector Equations",
+  "body": " Vector Equations   Vector Equations   Introduction   Topics   Vectors in , and their basic properties  Linear combinations of vectors      Goals   Apply geometric and algebraic properties of vectors in to compute vector additions and scalar multiplications.  Characterize a set of vectors in terms of linear combinations , their span , and how they are related to each other geometrically.    We want to think about the algebra in linear algebra (systems of equations and their solution sets) in terms of geometry (points, lines, planes, etc.). Consider the following system. We could solve this system by graphing the lines represented by each equation and determining where they interesect.   Two lines in the plane with a single point of intersection.   Cartesian axes with two lines: one with positive slope (from the equation ) and one with negative slope (from ), intersecting at a point.     This geometric perspective gives better insight into properties of systems and their solution sets. To better see this, we introduce -dimensional space and the vectors that live in it.       Recall that denotes the collection of all real numbers. For a positive integer , define     When , we get , the number line.   The number line for .   A horizontal line with tick marks labeled from -3 to 3 representing the real numbers.     When , we can think of as a plane. Each point is an ordered pair of real numbers: its - and -coordinates. We could also view the elements of as vectors (arrows with length and direction). It turns out, viewing them as vector is a better approach.    Sketch the point and the vector .   Cartesian plane with grid, axes, and room to mark and .   A square grid with horizontal and vertical axes spanning from -4 to 4, ready to plot the point (3,2) and the arrow from the origin to (3,2).         Vector Algebra  When we think of an element of as a vector, we commonly write it as a column:   Suppose is an arbitrary real number, written , and let   Vectors have the following properties.    Scalar Multiple:     Vector Addition:     Vectors in higher dimensions satisfy the same operations componentwise.    Linear Combinations and Span     Given vectors and scalars , the vector is called a linear combination of with weights .  The set of all linear combinations of is called the span of these vectors.     Any two vectors in that are not scalar multiples of one another span . Thus, any vector in can be written as a linear combination of such a pair.   Linear combinations of two nonparallel vectors spanning the plane.   A lightly rotated square grid with the origin and multiples\/sums of two non-parallel vectors labeled, illustrating how combinations like , , etc., tile the plane.       Examples of Linear Combinations and Span    Let and . Determine three vectors which are linear combinations of and .      Let and . Determine if is in .      Example: Membership in a Span  In general, any two non-parallel vectors in span a plane through the origin. Every vector in that plane is a linear combination of the two.   Two nonparallel vectors in span a plane through the origin.   A translucent plane through the origin with two nonparallel vectors drawn from the origin; coordinate axes are shown for reference.       Is in the span of and ?       "
+},
+{
+  "id": "obj-1-3-topics",
+  "level": "2",
+  "url": "sec-1-3.html#obj-1-3-topics",
+  "type": "Objectives",
+  "number": "",
+  "title": "Topics",
+  "body": " Topics   Vectors in , and their basic properties  Linear combinations of vectors   "
+},
+{
+  "id": "obj-1-3",
+  "level": "2",
+  "url": "sec-1-3.html#obj-1-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "Goals",
+  "body": " Goals   Apply geometric and algebraic properties of vectors in to compute vector additions and scalar multiplications.  Characterize a set of vectors in terms of linear combinations , their span , and how they are related to each other geometrically.   "
+},
+{
+  "id": "fig-motivation-lines",
+  "level": "2",
+  "url": "sec-1-3.html#fig-motivation-lines",
+  "type": "Figure",
+  "number": "1.3.1",
+  "title": "",
+  "body": " Two lines in the plane with a single point of intersection.   Cartesian axes with two lines: one with positive slope (from the equation ) and one with negative slope (from ), intersecting at a point.    "
+},
+{
+  "id": "Rn-2",
+  "level": "2",
+  "url": "sec-1-3.html#Rn-2",
+  "type": "Definition",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Recall that denotes the collection of all real numbers. For a positive integer , define    "
+},
+{
+  "id": "fig-number-line",
+  "level": "2",
+  "url": "sec-1-3.html#fig-number-line",
+  "type": "Figure",
+  "number": "1.3.3",
+  "title": "",
+  "body": " The number line for .   A horizontal line with tick marks labeled from -3 to 3 representing the real numbers.    "
+},
+{
+  "id": "Rn-6",
+  "level": "2",
+  "url": "sec-1-3.html#Rn-6",
+  "type": "Example",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  Sketch the point and the vector .   Cartesian plane with grid, axes, and room to mark and .   A square grid with horizontal and vertical axes spanning from -4 to 4, ready to plot the point (3,2) and the arrow from the origin to (3,2).      "
+},
+{
+  "id": "def-linear-combination-span",
+  "level": "2",
+  "url": "sec-1-3.html#def-linear-combination-span",
+  "type": "Definition",
+  "number": "1.3.6",
+  "title": "",
+  "body": "   Given vectors and scalars , the vector is called a linear combination of with weights .  The set of all linear combinations of is called the span of these vectors.    "
+},
+{
+  "id": "fig-grid-combos",
+  "level": "2",
+  "url": "sec-1-3.html#fig-grid-combos",
+  "type": "Figure",
+  "number": "1.3.7",
+  "title": "",
+  "body": " Linear combinations of two nonparallel vectors spanning the plane.   A lightly rotated square grid with the origin and multiples\/sums of two non-parallel vectors labeled, illustrating how combinations like , , etc., tile the plane.    "
+},
+{
+  "id": "examples-2",
+  "level": "2",
+  "url": "sec-1-3.html#examples-2",
+  "type": "Example",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  Let and . Determine three vectors which are linear combinations of and .   "
+},
+{
+  "id": "examples-3",
+  "level": "2",
+  "url": "sec-1-3.html#examples-3",
+  "type": "Example",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  Let and . Determine if is in .   "
+},
+{
+  "id": "fig-plane-span",
+  "level": "2",
+  "url": "sec-1-3.html#fig-plane-span",
+  "type": "Figure",
+  "number": "1.3.10",
+  "title": "",
+  "body": " Two nonparallel vectors in span a plane through the origin.   A translucent plane through the origin with two nonparallel vectors drawn from the origin; coordinate axes are shown for reference.    "
+},
+{
+  "id": "ex-span-membership",
+  "level": "2",
+  "url": "sec-1-3.html#ex-span-membership",
+  "type": "Example",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  Is in the span of and ?    "
 }
 ]
 
