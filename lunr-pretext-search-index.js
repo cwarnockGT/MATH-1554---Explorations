@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Row Reduction and Echelon Forms",
-  "body": " Row Reduction and Echelon Forms     Topics   Row reduction algorithm  Pivots, basic and free variables  Echelon forms, existence and uniqueness      Goals   Characterize a linear system in terms of leading entries, free variables, pivots, pivot columns, and pivot positions.  Apply the row reduction algorithm to reduce a linear system to echelon form or reduced echelon form.  Apply row reduction to compute the coefficients of a polynomial.      Echelon Form and Row Row Reduced Echelon Form   A rectangular matrix is in echelon form (REF) if:   All zero rows (if any) are at the bottom.  The first nonzero entry (or leading entry ) of a row is to the right of any leading entry in the row above it.  All entries below a leading entry are zero.   A matrix in echelon form is in row reduced echelon form (RREF) if additionally:   All leading entries equal .  Each leading entry is the only nonzero entry in its column.        Let denote a nonzero number, and denote any number.   is in REF.   is in RREF.       Determine whether each matrix is in RREF, REF, or neither.            Pivot Position and Pivot Column   A pivot position in a matrix is a location in that corresponds to a leading in the RREF of . A pivot column is a column of that contains a pivot position.       Express the matrix in row reduced echelon form and identify the pivot columns.         Row Reduction Algorithm (Steps to RREF)  The algorithm below produces a matrix in RREF.   Step 1a: Swap the first row with a lower one so the leftmost nonzero entry is in the first row.  Step 1b: Scale the first row so that its leading entry equals .  Step 1c: Use row replacement so all entries above and below this are .  Step 2a: Swap the second row with a lower one so the leftmost nonzero entry below the first row is in the second row.  Step 2b: Scale the second row so that its leading entry equals .  Step 2c: Use row replacement so all entries above and below this are .  Continue: Repeat these steps for each subsequent row until the matrix is in RREF.      Use the algorithm above to convert the following matrix into RREF.        Pivot Variables and Free Variables   Variables in a system that correspond to pivot column in the augmented matrix are called pivot variables . The other variables in the system are called free variables . This is because, if the system is consistent, then any choice of the free variables will lead to a valid solution.       Determine the pivot variables and the free variables for the system represented below.         Existence and Uniqueness of Solutions   A linear system is consistent if and only if the last column of the augmented matrix does not have a pivot. Equivalently, the RREF of the augmented matrix does not contain a row of the form .  If a linear system is consistent, then:   It has a unique solution if and only if (iff) there are .  Otherwise, it has many solutions parameterized by the free variables.      "
+  "body": " Row Reduction and Echelon Forms   Row Reduction and Echelon Forms    Topics   Row reduction algorithm  Pivots, basic and free variables  Echelon forms, existence and uniqueness      Goals   Characterize a linear system in terms of leading entries, free variables, pivots, pivot columns, and pivot positions.  Apply the row reduction algorithm to reduce a linear system to echelon form or reduced echelon form.  Apply row reduction to compute the coefficients of a polynomial.      Echelon Form and Row Row Reduced Echelon Form   A rectangular matrix is in echelon form (REF) if:   All zero rows (if any) are at the bottom.  The first nonzero entry (or leading entry ) of a row is to the right of any leading entry in the row above it.  All entries below a leading entry are zero.   A matrix in echelon form is in row reduced echelon form (RREF) if additionally:   All leading entries equal .  Each leading entry is the only nonzero entry in its column.        Let denote a nonzero number, and denote any number.   is in REF.   is in RREF.       Determine whether each matrix is in RREF, REF, or neither.            Pivot Position and Pivot Column   A pivot position in a matrix is a location in that corresponds to a leading in the RREF of . A pivot column is a column of that contains a pivot position.       Express the matrix in row reduced echelon form and identify the pivot columns.         Row Reduction Algorithm (Steps to RREF)  The algorithm below produces a matrix in RREF.   Step 1a: Swap the first row with a lower one so the leftmost nonzero entry is in the first row.  Step 1b: Scale the first row so that its leading entry equals .  Step 1c: Use row replacement so all entries above and below this are .  Step 2a: Swap the second row with a lower one so the leftmost nonzero entry below the first row is in the second row.  Step 2b: Scale the second row so that its leading entry equals .  Step 2c: Use row replacement so all entries above and below this are .  Continue: Repeat these steps for each subsequent row until the matrix is in RREF.      Use the algorithm above to convert the following matrix into RREF.        Pivot Variables and Free Variables   Variables in a system that correspond to pivot column in the augmented matrix are called pivot variables . The other variables in the system are called free variables . This is because, if the system is consistent, then any choice of the free variables will lead to a valid solution.       Determine the pivot variables and the free variables for the system represented below.         Existence and Uniqueness of Solutions   A linear system is consistent if and only if the last column of the augmented matrix does not have a pivot. Equivalently, the RREF of the augmented matrix does not contain a row of the form .  If a linear system is consistent, then:   It has a unique solution if and only if (iff) there are .  Otherwise, it has many solutions parameterized by the free variables.      "
 },
 {
   "id": "obj-1-2-topics",
@@ -217,18 +217,18 @@ var ptx_lunr_docs = [
   "body": "  Express the matrix in row reduced echelon form and identify the pivot columns.      "
 },
 {
-  "id": "handout-1-2-9",
+  "id": "handout-1-2-10",
   "level": "2",
-  "url": "sec-1-2.html#handout-1-2-9",
+  "url": "sec-1-2.html#handout-1-2-10",
   "type": "Example",
   "number": "1.2.6",
   "title": "",
   "body": "  Use the algorithm above to convert the following matrix into RREF.      "
 },
 {
-  "id": "handout-1-2-10",
+  "id": "handout-1-2-11",
   "level": "2",
-  "url": "sec-1-2.html#handout-1-2-10",
+  "url": "sec-1-2.html#handout-1-2-11",
   "type": "Definition",
   "number": "1.2.7",
   "title": "Pivot Variables and Free Variables.",
@@ -368,6 +368,114 @@ var ptx_lunr_docs = [
   "number": "1.3.11",
   "title": "",
   "body": "  Is in the span of and ?    "
+},
+{
+  "id": "sec-1-4",
+  "level": "1",
+  "url": "sec-1-4.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "The Matrix Equation <span class=\"process-math\">\\(A \\vec{x} = \\vec{b}\\)<\/span>",
+  "body": " The Matrix Equation   The Matrix Equation    Overview   “Mathematics is the art of giving the same name to different things.”  H. Poincaré   In this section we introduce another way of expressing a linear system that we will use throughout this course.   Topics   Matrix notation for systems of equations.  The matrix product .     Goals   Compute matrix–vector products.  Express linear systems as vector equations and matrix equations.  Characterize linear systems and sets of vectors using span, linear combinations, and pivots.    Below is some math notation that will be used frequently throughout the course.     symbol  meaning     belongs to     the set of vectors with real-valued elements     the set of real-valued matrices with rows and columns     Example: the notation means that is a vector with five real-valued elements.     Linear Combinations   Matrix Vector Product as a Linear Combination   Let be an matrix with columns and let . The matrix vector product  is the following linear combination of the columns of :   In particular, lies in the span of the columns of .      Write the product below as a linear combination of column vectors.         Simplify the product below.           Equivalent Formulations of a Linear System   Let be an matrix with columns , let , and let . The solutions to   are the same as the solutions to the vector equation   which are the same as the solutions to the linear system with augmented matrix      The Existence of Solutions for the Matrix Equation   The equation has a solution if and only if is a linear combination of the columns of .     Consistency for all and pivots   The equation is consistent for every if and only if every row of has a pivot.        For what vectors does the equation have a solution?          For what values of is the system consistent for every possible choice of vector ?         Summary: Four Equivalent Views of a Linear System  We now have four equivalent ways of expressing linear systems.    A system of equations:     An augmented matrix:     A vector equation:     A matrix equation:     Each representation gives us a different way to think about linear systems.    "
+},
+{
+  "id": "sec-1-4-matrix-equation-2-4",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-matrix-equation-2-4",
+  "type": "Objectives",
+  "number": "",
+  "title": "Topics",
+  "body": " Topics   Matrix notation for systems of equations.  The matrix product .   "
+},
+{
+  "id": "sec-1-4-matrix-equation-2-5",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-matrix-equation-2-5",
+  "type": "Objectives",
+  "number": "",
+  "title": "Goals",
+  "body": " Goals   Compute matrix–vector products.  Express linear systems as vector equations and matrix equations.  Characterize linear systems and sets of vectors using span, linear combinations, and pivots.   "
+},
+{
+  "id": "sec-1-4-matrix-equation-2-7",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-matrix-equation-2-7",
+  "type": "Table",
+  "number": "1.4.1",
+  "title": "",
+  "body": "   symbol  meaning     belongs to     the set of vectors with real-valued elements     the set of real-valued matrices with rows and columns    "
+},
+{
+  "id": "def-matrix-vector-product",
+  "level": "2",
+  "url": "sec-1-4.html#def-matrix-vector-product",
+  "type": "Definition",
+  "number": "1.4.2",
+  "title": "Matrix Vector Product as a Linear Combination.",
+  "body": " Matrix Vector Product as a Linear Combination   Let be an matrix with columns and let . The matrix vector product  is the following linear combination of the columns of :   In particular, lies in the span of the columns of .   "
+},
+{
+  "id": "sec-1-4-matrix-equation-3-3",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-matrix-equation-3-3",
+  "type": "Example",
+  "number": "1.4.3",
+  "title": "",
+  "body": "  Write the product below as a linear combination of column vectors.      "
+},
+{
+  "id": "sec-1-4-matrix-equation-3-4",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-matrix-equation-3-4",
+  "type": "Example",
+  "number": "1.4.4",
+  "title": "",
+  "body": "  Simplify the product below.      "
+},
+{
+  "id": "thm-same-solutions",
+  "level": "2",
+  "url": "sec-1-4.html#thm-same-solutions",
+  "type": "Theorem",
+  "number": "1.4.5",
+  "title": "Equivalent Formulations of a Linear System.",
+  "body": " Equivalent Formulations of a Linear System   Let be an matrix with columns , let , and let . The solutions to   are the same as the solutions to the vector equation   which are the same as the solutions to the linear system with augmented matrix    "
+},
+{
+  "id": "thm-existence-span",
+  "level": "2",
+  "url": "sec-1-4.html#thm-existence-span",
+  "type": "Theorem",
+  "number": "1.4.6",
+  "title": "The Existence of Solutions for the Matrix Equation.",
+  "body": " The Existence of Solutions for the Matrix Equation   The equation has a solution if and only if is a linear combination of the columns of .   "
+},
+{
+  "id": "thm-consistency-rows-pivots",
+  "level": "2",
+  "url": "sec-1-4.html#thm-consistency-rows-pivots",
+  "type": "Theorem",
+  "number": "1.4.7",
+  "title": "Consistency for all <span class=\"process-math\">\\(\\vec{b}\\)<\/span> and pivots.",
+  "body": " Consistency for all and pivots   The equation is consistent for every if and only if every row of has a pivot.   "
+},
+{
+  "id": "sec-1-4-matrix-equation-5-1",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-matrix-equation-5-1",
+  "type": "Example",
+  "number": "1.4.8",
+  "title": "",
+  "body": "  For what vectors does the equation have a solution?    "
+},
+{
+  "id": "sec-1-4-matrix-equation-6-1",
+  "level": "2",
+  "url": "sec-1-4.html#sec-1-4-matrix-equation-6-1",
+  "type": "Example",
+  "number": "1.4.9",
+  "title": "",
+  "body": "  For what values of is the system consistent for every possible choice of vector ?     "
 }
 ]
 
