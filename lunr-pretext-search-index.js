@@ -550,6 +550,78 @@ var ptx_lunr_docs = [
   "body": " Parametric vector form and geometric interpretation   Write the parametric vector form of the solution and give a geometric interpretation.   (Note: the left-hand side is the same as in the homogeneous system example.)    "
 },
 {
+  "id": "sec-1-7",
+  "level": "1",
+  "url": "sec-1-7.html",
+  "type": "Section",
+  "number": "",
+  "title": "1.7 Linear Independence",
+  "body": " 1.7 Linear Independence   1.7 Linear Independence    Topics and Objectives   Topics   Linear independence  Geometric interpretation of linearly independent vectors     Goals   Characterize a set of vectors and linear systems using the concept of linear independence.  Construct dependence relations between linearly dependent vectors.     Motivating Question: What is the smallest number of vectors needed in a parametric solution to a linear system?   A set of vectors in is called linearly independent if the vector equation has only the trivial solution  . The set is said to be linearly dependent if there exist weights , not all zero , such that    Let . Then some equivalent definitions of linear independence are  only has the trivial solution.  has a pivot in every column.        For each of the following sets, determine if the set is linearly independent or linearly dependent.                        Two Important Facts   Any set containing the zero vector is linearly dependent.    Suppose are vectors in with . Then the set is linearly dependent.      Example 1   For what values of are the vectors   linearly dependent?     "
+},
+{
+  "id": "sec-1-7-2-2-2",
+  "level": "2",
+  "url": "sec-1-7.html#sec-1-7-2-2-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "Topics",
+  "body": " Topics   Linear independence  Geometric interpretation of linearly independent vectors   "
+},
+{
+  "id": "sec-1-7-2-2-3",
+  "level": "2",
+  "url": "sec-1-7.html#sec-1-7-2-2-3",
+  "type": "Objectives",
+  "number": "",
+  "title": "Goals",
+  "body": " Goals   Characterize a set of vectors and linear systems using the concept of linear independence.  Construct dependence relations between linearly dependent vectors.   "
+},
+{
+  "id": "sec-1-7-2-2-5",
+  "level": "2",
+  "url": "sec-1-7.html#sec-1-7-2-2-5",
+  "type": "Definition",
+  "number": "1.42",
+  "title": "",
+  "body": " A set of vectors in is called linearly independent if the vector equation has only the trivial solution  . The set is said to be linearly dependent if there exist weights , not all zero , such that   "
+},
+{
+  "id": "sec-1-7-2-3-1",
+  "level": "2",
+  "url": "sec-1-7.html#sec-1-7-2-3-1",
+  "type": "Example",
+  "number": "1.43",
+  "title": "",
+  "body": " For each of the following sets, determine if the set is linearly independent or linearly dependent.                     "
+},
+{
+  "id": "sec-1-7-2-4-2",
+  "level": "2",
+  "url": "sec-1-7.html#sec-1-7-2-4-2",
+  "type": "Theorem",
+  "number": "1.44",
+  "title": "",
+  "body": " Any set containing the zero vector is linearly dependent.  "
+},
+{
+  "id": "sec-1-7-2-4-3",
+  "level": "2",
+  "url": "sec-1-7.html#sec-1-7-2-4-3",
+  "type": "Theorem",
+  "number": "1.45",
+  "title": "",
+  "body": " Suppose are vectors in with . Then the set is linearly dependent.  "
+},
+{
+  "id": "sec-1-7-2-5-2",
+  "level": "2",
+  "url": "sec-1-7.html#sec-1-7-2-5-2",
+  "type": "Example",
+  "number": "1.46",
+  "title": "",
+  "body": " For what values of are the vectors   linearly dependent?  "
+},
+{
   "id": "sec-1-1-sol",
   "level": "1",
   "url": "sec-1-1-sol.html",
