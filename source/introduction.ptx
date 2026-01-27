@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <introduction xml:id="intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <p>These are the course notes for Georgia Tech's MATH 1554 Linear Algebra used during the Spring 2026 semester. </p>
-    <p>The notes are organized by chapter and section. Each section is it's own HTML page that can be navigated to by using the links below or by using the Contents panel on the left. To return to this page, click the large "MATH 1554 Course Notes - Spring 2026" link at the top of any page.</p>
-    <p>The notes are written in PreTeXt which is a markup language that will meet the upcoming Title II compliancy requirements for Web Content. The notes are intended to be used as guided notes. You can get a PDF of each section's notes by navigating to the HTML page and clicking the printer icon in the top right. This will generate a PDF containing the same content as the webpage, but with spaces inserted to allow for notetaking.</p>
-    <p><em>Disclaimer:</em> This is the first time I have used PreTeXt, so please bear with me. The notes are in constant development, so please check back often to see updated content. If you have any feedback or suggestions as you use these notes, please feel free to reach out to me at <url href="mailto:cwarnock6@gatech.edu">cwarnock6@gatech.edu</url>.</p>
+    <p>These are the Exploration Assignments for Georgia Tech's MATH 1554 Linear Algebra used during the Spring 2026 semester. </p>
+    <p>Exploration Assignments are submitted through Gradescope and are due each Sunday, by midnight, starting on Week 3. There will be a total of 12 Exploration Assignments, each worth 3 pts, for a total of 36 MQEW pts.</p>
+    <p>The purpose of exploration activities is to help students gain a deeper understanding of course concepts, come to class more prepared, offer feedback to the instructors on student understanding and course activities, and help students become more aware of their level of understanding of course material. Explorations are open note, open book, you can use any online calculator or MATLAB or online resource such as Chegg, and you can talk about explorations with each other or your instructor - ask for clarification or hints on Piazza; however, your work on the exploration must be <em>entirely your own</em>, and instances of plagiarism will be reported to OSI for disciplinary action and you will receive a zero on the assignment in question. </p>
+    <p>More information on Exploration Assignments can be found in Section 7.3 of our course syllabus.</p>
+    <note>
+        <p><em>Instructions</em>: For each assignment, complete the questions by hand on paper/tablet. Write neatly, follow directions, and use complete sentences where necessary. <em>You must submit original work</em>, but you can share ideas. Handwritten homework is due on Sunday in Gradescope; no late submissions accepted. Your submission should be a single PDF, organized and labeled appropriately, and oriented correctly.</p>
+    </note>
+        <note xml:id="random">
+        <statement>
+            <p>
+                <em>Note</em>: When we say "choose a random vector", or similar language, in explorations, we don't truly mean random. We mean to avoid super simple vectors such as <m>\begin{bmatrix} 1 \\ 0 \end{bmatrix}</m> or vectors which make following the instructions very easy. Sometimes simple vector like these will be allowed, and even encouraged. But often in explorations, you will miss the point of the exercise if your vectors are too trivial. 
+            </p>
+            <p>
+                Please, do not ask on Piazza if your vectors are general enough to get full credit. The explorations are assignments which require you to make a <em>judgement call</em>, to <em>explore</em> a particular concept of the course and <em>not</em> to come up with the simplest example which satisfies the minimum requirements of the assignment. 
+            </p>
+            </statement>
+    </note>
 </introduction>

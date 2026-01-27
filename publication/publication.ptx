@@ -21,14 +21,14 @@
     <!-- numbering of the respective elements. Can't be more than the -->
     <!-- @level on divisions above.                                   -->
       <blocks level="1" />
-      <projects level="0" />
-      <equations level="0" />
-      <footnotes level="0" />
+      <projects level="1" />
+      <equations level="1" />
+      <footnotes level="1" />
     </numbering>
 
     <common>
 
-        <chunking level="2" />
+        <chunking level="1" />
 
         <!-- When writing an article for a specific journal, you can   -->
         <!-- specify the name of the journal to get appropriate latex. -->
