@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section>
+  <title>Exploration 1, due February 1</title>
+<handout xml:id="exp-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 1, due February 1</title>
+    <problem> 
+        <task workspace="0.5in">
+          <statement>
+            <p>
+              Choose two <xref ref="random" text="custom">random</xref> vectors <m>\vec v, \vec w</m> in <m>\mathbb{R}^2</m> which are not multiples of each other.
+            </p>
+            
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Choose a random third vector <m> \vec b </m> in <m> \mathbb{R}^2</m> and express <m>\vec b</m> as a linear combination of <m>\vec v, \vec w</m>; that is, find weights <m> c_1, c_2 \in \mathbb{R}</m> such that <md> c_1\vec v + c_2 \vec w = \vec b</md>
+            </p>
+          </statement>
+        </task>
+        <task workspace="true">
+          <statement>
+            <p>
+              Sketch the vectors <m>\vec v, \vec w, \vec b</m> in <m>\mathbb{R}^2</m> and show, geometrically, how the linear combination from (b) makes sense.
+            </p>
+          </statement>
+        </task>
+    </problem>
+    <problem>
+      <task workspace="1in">
+        <statement>
+          <p>
+            Now, choose two random vectors <m>\vec v, \vec w</m> in <m>\mathbb{R}^3</m> which are not multiples of each other. Can every vector <m>\vec b \in \mathbb{R}^3</m> be expressed as a linear combination of <m>\vec v, \vec w</m>? Justify your answer.
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.5in">
+          <statement>
+            <p>
+              Choose a random third vector <m> \vec b \mathbb{R}^3</m> that can be expressed as a linear combination of <m>\vec v, \vec w</m>. Find appropriate weights <m> c_1, c_2 \in \mathbb{R}</m> such that <md> c_1\vec v + c_2 \vec w = \vec b</md>
+            </p>
+          </statement>
+      </task>
+      <task workspace="true">
+          <statement>
+            <p>
+              <em>Bonus (Not graded)</em>: Sketch the vectors <m>\vec v, \vec w, \vec b</m> in <m>\mathbb{R}^3</m> and show, geometrically, how the linear combination from (b) makes sense.
+            </p>
+          </statement>
+      </task>
+    </problem>
+
+  
+  
+</handout>
+</section>

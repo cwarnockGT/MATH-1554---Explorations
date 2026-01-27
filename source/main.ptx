@@ -18,15 +18,13 @@
     </latex-image-preamble>
   </docinfo>
 
-  <book xml:id="notes">
-    <title>MATH 1554 Course Notes - Spring 2026</title>
+  <article xml:id="explorations">
+    <title>MATH 1554 Explorations - Spring 2026</title>
       
     <!-- <xi:include href="./frontmatter.ptx" /> -->
     
     <xi:include href="./introduction.ptx" />
-    <xi:include href="./chapter-1.ptx" />
-    <xi:include href="./solutions.ptx" />
-    <!-- <xi:include href="./chapter-2.ptx" /> -->
-  </book>
+    <xi:include href="./exploration-1.ptx" />
+  </article>
 
 </pretext>
