@@ -4,7 +4,11 @@
     <p>Exploration Assignments are submitted through Gradescope and are due each Sunday, by midnight, starting on Week 3. There will be a total of 12 Exploration Assignments, each worth 3 pts, for a total of 36 MQEW pts.</p>
     <p>The purpose of exploration activities is to help students gain a deeper understanding of course concepts, come to class more prepared, offer feedback to the instructors on student understanding and course activities, and help students become more aware of their level of understanding of course material. Explorations are open note, open book, you can use any online calculator or MATLAB or online resource such as Chegg, and you can talk about explorations with each other or your instructor - ask for clarification or hints on Piazza; however, your work on the exploration must be <em>entirely your own</em>, and instances of plagiarism will be reported to OSI for disciplinary action and you will receive a zero on the assignment in question. </p>
     <p>More information on Exploration Assignments can be found in Section 7.3 of our course syllabus.</p>
+<<<<<<< HEAD
     <note>
+=======
+    <note xml:id="instructions">
+>>>>>>> 7634cf5abf00cf82ce0d3240c515e53c62efe62a
         <p><em>Instructions</em>: For each assignment, complete the questions by hand on paper/tablet. Write neatly, follow directions, and use complete sentences where necessary. <em>You must submit original work</em>, but you can share ideas. Handwritten homework is due on Sunday in Gradescope; no late submissions accepted. Your submission should be a single PDF, organized and labeled appropriately, and oriented correctly.</p>
     </note>
         <note xml:id="random">

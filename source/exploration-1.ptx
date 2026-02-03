@@ -3,6 +3,12 @@
   <title>Exploration 1, due February 1</title>
 <handout xml:id="exp-1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exploration 1, due February 1</title>
+<<<<<<< HEAD
+=======
+      <p>
+        Make sure to familariaze yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+      </p>
+>>>>>>> 7634cf5abf00cf82ce0d3240c515e53c62efe62a
     <problem> 
         <task workspace="0.5in">
           <statement>
