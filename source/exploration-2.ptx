@@ -4,6 +4,9 @@
 <handout xml:id="exp-2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exploration 2, due February 8</title>
     <page>
+      <p>
+        Make sure to familariaze yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+      </p>
     <p>
         <em>Propositional logic:</em> This week we will explore the basics of propositional logic in order to help develop some framework to practice True/False questions when studying for the exam. 
     </p>
@@ -43,7 +46,7 @@
       <m>\vec b=\begin{bmatrix} 1\\ 2\\ 3 \end{bmatrix}</m>.
     </p>
 
-    <example xml:id="ex2-q1" workspace="true">
+    <problem xml:id="ex2-q1" workspace="true">
       <statement>
         <p>
           Pick <em>one</em> of the statements (2)–(5) above.
@@ -62,7 +65,7 @@
       </statement>
 
       <p><vspace amount="2.5in"/></p>
-    </example>
+    </problem>
   </page>
 
   <!-- ================= PAGE 4 ================= -->
@@ -126,7 +129,7 @@
         <m>A(\vec x+\vec y)=\begin{bmatrix} 6\\ 6 \end{bmatrix}\neq\vec b</m>.
       </p>
  
-    <example xml:id="ex2-q2" workspace="true">
+    <problem xml:id="ex2-q2" workspace="true">
       <statement>
         <p>
           Choose one <em>true</em> and one <em>false</em> implication
@@ -146,7 +149,7 @@
         </p>
       </statement>
 
-    </example>
+    </problem>
   </page>
 
   <!-- ================= PAGE 7 ================= -->
@@ -180,7 +183,7 @@
 
     <title>Question Q3</title>
 
-    <example xml:id="ex2-q3" workspace="true">
+    <problem xml:id="ex2-q3" workspace="true">
       <statement>
         <p>
           For statements (10) and (11):
@@ -201,7 +204,7 @@
           <m>T(\vec x_1)\neq T(\vec x_2)</m>.
         </p>
         </statement>
-    </example>
+      </problem>
   </page>
 
 </handout>
