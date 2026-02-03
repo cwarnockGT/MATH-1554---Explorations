@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section>
+  <title>Exploration 2, due February 8</title>
+<handout xml:id="exp-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 2, due February 8</title>
+    <page>
+    <p>
+        <em>Propositional logic:</em> This week we will explore the basics of propositional logic in order to help develop some framework to practice True/False questions when studying for the exam. 
+    </p>
+
+    
+    <p>
+      The assignment for this week is to complete <xref ref="ex2-q1"/>, <xref ref="ex2-q2"/>, and <xref ref="ex2-q3"/> and upload
+      your work to Gradescope.  The additional (non-question) text is just to help you understand the assignment.
+    </p>
+
+
+    <definition xml:id="def-proposition">
+      <p>
+        A <term>mathematical statement</term> (also called a <term>proposition</term>) is a sentence
+        which is either true or false.
+      </p>
+    </definition>
+
+    <p>
+      Each of the following is a mathematical statement. Depending on the matrices
+      or vectors involved, each may be true or false.
+    </p>
+
+    <ul marker="">
+      <li>(1) &#160; <m>A\vec x = \vec b</m> is consistent.</li>
+      <li>(2) &#160; <m>[A \; | \; \vec b]</m> is row equivalent to <m>[C \; | \; \vec d]</m>.</li>
+      <li>(3) &#160; <m>A\vec x = \vec 0</m> has a non‑trivial solution.</li>
+      <li>(4) &#160; The columns of <m>A</m> are linearly dependent.</li>
+      <li>(5) &#160; <m>T(\vec x)=A\vec x</m> is onto.</li>
+    </ul>
+
+    <p>
+      For example, (1) is true if
+      <m>A=\begin{bmatrix} 1\amp 0\\ 0\amp 1\\ 0\amp 0 \end{bmatrix}</m> and
+      <m>\vec b=\begin{bmatrix} 1\\ 2\\ 0 \end{bmatrix}</m>,
+      but false if <m>A=\begin{bmatrix} 1\amp 0\\ 0\amp 1\\ 0\amp 0 \end{bmatrix}</m> and
+      <m>\vec b=\begin{bmatrix} 1\\ 2\\ 3 \end{bmatrix}</m>.
+    </p>
+
+    <example xml:id="ex2-q1" workspace="true">
+      <statement>
+        <p>
+          Pick <em>one</em> of the statements (2)–(5) above.
+          Give:
+        </p>
+        <ol>
+          <li>a choice of vectors/matrices that makes the statement true,</li>
+          <li>a choice that makes the same statement false.</li>
+        </ol>
+        <p>
+          Verify your answers using appropriate calculations.
+        </p>
+        <p>
+          <em>Note:</em> Please write the problem statement you are solving to help the grader.
+        </p>
+      </statement>
+
+      <p><vspace amount="2.5in"/></p>
+    </example>
+  </page>
+
+  <!-- ================= PAGE 4 ================= -->
+  <page>
+    <title>Combining Statements</title>
+
+    <p>
+      Statements can be combined using logical connectives such as
+      <em>and</em>, <em>or</em>, and <em>implies</em>.
+    </p>
+
+    <ul marker="">
+      <li>(6) &#160; <m>[A \; | \; \vec b]</m> is row equivalent to <m>[C \; | \; \vec d]</m>
+        <strong>and</strong> <m>A\vec x=\vec b</m> is consistent.
+      </li>
+      <li>(7) &#160;  <m>A\vec x=\vec 0</m> has a non‑trivial solution
+        <strong>or</strong> <m>T(\vec x)=A\vec x</m> is onto.
+      </li>
+      <li>(8a) &#160; The columns of <m>A</m> are linearly dependent
+        <strong>implies</strong> <m>A\vec x=\vec 0</m> has a non‑trivial solution.
+      </li>
+      <li>(8a) &#160; If the columns of <m>A</m> are linearly dependent,
+        <strong>then</strong> <m>A\vec x=\vec 0</m> has a non‑trivial solution.
+      </li>
+    </ul>
+
+    <p>
+      Implications are commonly written using <strong>if–then</strong> language.
+      The statements (8a) and (8b) express the same idea using different wording.
+    </p>
+
+    <p>
+      An implication is <em>true</em> when the truth of the “if” part
+      forces the “then” part to be true.
+    </p>
+
+    <p>
+      For example, if the columns of <m>A</m> are linearly dependent,
+      then there is a free variable in <m>A\vec x=\vec 0</m>,
+      yielding a non‑trivial solution. Thus, (8a) and (8b) are true.
+    </p>
+
+    <p>
+      An implication is <em>false</em> if there exists a counterexample where
+      the “if” part is true but the “then” part is false.
+    </p>
+
+
+    <ul marker="">
+          <li>(9) &#160; If <m>A\vec x=\vec b</m> and <m>A\vec y=\vec b</m>,
+          then <m>A(\vec x+\vec y)=\vec b</m>.</li>
+    </ul>
+
+      <p>
+        This implication is false. For example, let
+        <m>A=\begin{bmatrix} 1\amp 1\\ 1\amp 1 \end{bmatrix}</m> and
+        <m>\vec b=\begin{bmatrix} 3\\ 3 \end{bmatrix}</m>.
+        Then <m>\vec x=\begin{bmatrix} 1\\ 2 \end{bmatrix}</m> and
+        <m>\vec y=\begin{bmatrix} 3\\ 0 \end{bmatrix}</m> both satisfy
+        <m>A\vec x=\vec b</m>, but
+        <m>A(\vec x+\vec y)=\begin{bmatrix} 6\\ 6 \end{bmatrix}\neq\vec b</m>.
+      </p>
+ 
+    <example xml:id="ex2-q2" workspace="true">
+      <statement>
+        <p>
+          Choose one <em>true</em> and one <em>false</em> implication
+          from any practice exam.
+        </p>
+        <ol>
+          <li>Identify the “if” and “then” propositions.</li>
+          <li>
+            If false, give a counterexample with explanation.
+          </li>
+          <li>
+            If true, give a short general explanation using correct terminology.
+          </li>
+        </ol>
+        <p>
+          <em>Note:</em> Write the full problem statement to assist the grader.
+        </p>
+      </statement>
+
+    </example>
+  </page>
+
+  <!-- ================= PAGE 7 ================= -->
+  <page>
+    <title>Quantifiers</title>
+
+    <p>
+      Some statements involve <em>quantifiers</em>.
+      The two most common are:
+    </p>
+
+    <ul>
+      <li><strong>for all</strong> (universal quantifier),</li>
+      <li><strong>for some</strong> (existential quantifier).</li>
+    </ul>
+
+    <p> Notice the quantifiers in the follow statements.</p>
+
+    <ul marker="">
+      <li>
+        (10) &#160; If <m>A\vec x=\vec b</m> is consistent <em>for some</em>
+        <m>\vec b\in\mathbb{R}^m</m>, then <m>A</m> has a pivot in every row.
+      </li>
+      <li>
+        (11) &#160; If <m>A</m> does not have a pivot in every column and
+        <m>T(\vec x)=A\vec x</m>, then <em>for every</em>
+        <m>\vec x_1\neq\vec x_2</m> we have
+        <m>T(\vec x_1)=T(\vec x_2)</m>.
+      </li>
+    </ul>
+
+    <title>Question Q3</title>
+
+    <example xml:id="ex2-q3" workspace="true">
+      <statement>
+        <p>
+          For statements (10) and (11):
+        </p>
+        <ol>
+          <li>Identify the propositions.</li>
+          <li>Both statements are false. Provide a counterexample for <em>one</em> of them and explain why the counterexample works.</li>
+        </ol>
+
+      <p>
+          <em>Hint:</em> For (10), choose <m>A</m> and <m>\vec b</m> such that
+          <m>A\vec x=\vec b</m> is consistent but <m>A</m> lacks a pivot in every row.
+      </p>
+
+        <p>
+          <em>Hint:</em> For (11), choose <m>A</m> without a pivot in every column and
+          vectors <m>\vec x_1\neq\vec x_2</m> such that
+          <m>T(\vec x_1)\neq T(\vec x_2)</m>.
+        </p>
+        </statement>
+    </example>
+  </page>
+
+</handout>
+</section>
