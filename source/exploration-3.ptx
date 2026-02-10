@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-3">
+  <title>Exploration 3, due February 15</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exam1-logic-problems">
+    <title>Exploration 3, due February 15</title>
+  <page>
+    <title>List of Problems</title>
+    <p>
+        Make sure to familariaze yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+      </p>
+
+    <p>Consider the following problems from previous Exam 1 midterms.</p>
+
+    <ol marker="(1)">
+      <li>
+        <p><strong>1(a)viii T/F (Fall ’25):</strong></p>
+        <p>If <m>\vec b\in\mathrm{Span}\{\vec v_1,\vec v_2\}</m> and
+        <m>\vec b\in\mathrm{Span}\{\vec v_2,\vec v_3\}</m>, then
+        <m>\vec b\in\mathrm{Span}\{\vec v_1,\vec v_3\}</m>.</p>
+      </li>
+
+      <li>
+        <p><strong>1(a)vi T/F (Spring ’25):</strong></p>
+        <p>If <m>\vec u</m> and <m>\vec v</m> are both solutions to an inhomogeneous
+        system <m>A\vec x=\vec b</m>, then <m>\vec u+\vec v</m> is also a solution
+        to <m>A\vec x=\vec b</m>.</p>
+      </li>
+
+      <li>
+        <p><strong>1(a)v T/F (Spring ’23):</strong></p>
+        <p>If <m>A</m> is size <m>3\times 4</m> and none of the rows of <m>A</m>
+        consist entirely of zeros, then <m>A</m> has 3 pivots.</p>
+      </li>
+
+      <li>
+        <p><strong>1(a)v T/F (Fall ’23):</strong></p>
+        <p>If <m>\{\vec v_1,\vec v_2\}</m> is a linearly independent set, then
+        <m>\mathrm{span}\{\vec v_1,\vec v_2\}=
+          \mathrm{span}\{\vec v_1+\vec v_2,\;\vec v_1-\vec v_2\}</m>.</p>
+      </li>
+
+      <li>
+        <p><strong>1(a)i T/F – modified (Spring ’25):</strong></p>
+        <p>If the system <m>A\vec x=\vec b</m> is inconsistent, then there is not a
+        pivot in the last row of the REF of the coefficient matrix <m>A</m>.</p>
+      </li>
+
+      <li>
+        <p><strong>1(a)ii T/F (Spring ’24):</strong></p>
+        <p>If the linear transformation <m>T(\vec x)=A\vec x</m> is one‑to‑one,
+        then <m>A\vec x=\vec b</m> has a unique solution.</p>
+      </li>
+    </ol>
+
+    <problem>
+        <statement>
+            <p>
+      For each of the true/false problems above, complete tasks (i)–(ii) below.
+
+    <ol marker="(i)">
+      <li>
+        <p>Write the problem and provide the answer.</p>
+      </li>
+
+      <li>
+        <p>Do one example that illustrates whether the statement
+        could be true or must be false. The example may be:</p>
+
+        <ul>
+          <li>an example showing the statement can be satisfied, or</li>
+          <li>a counterexample showing the statement must be false.</li>
+        </ul>
+
+        <p>
+          For instance, for problem (1) you would choose a matrix <m>A</m> and vectors
+          <m>\vec u,\vec v,\vec b</m> so that <m>\vec u</m> and <m>\vec v</m>
+          both satisfy <m>A\vec x=\vec b</m>, then check whether
+          <m>\vec u+\vec v</m> also satisfies the equation.
+        </p>
+
+        <p>
+          Say explicitly whether your example is a counterexample or not. <em>Note:</em> Your example does <strong>not</strong> need to be a counterexample
+      even if the original statement is false—any example is acceptable.
+        </p>
+      </li>
+    </ol>
+    </p>
+    </statement>
+</problem>
+
+  </page>
+
+  <!-- ================= PAGE 4: New Problems 7–8 ================= -->
+  <page>
+    <title>Create New Problems</title>
+    <problem>
+    <statement>
+        <p>
+      Create two new problems (7) and (8). Each new problem should be a
+      modification of <strong>one</strong> of the six original problems. For example,
+      you may:
+    </p>
+
+    <ul>
+      <li>change the premise or conclusion of an implication,</li>
+      <li>switch “onto” with “one‑to‑one”,</li>
+      <li>change “linearly independent” to “linearly dependent”,</li>
+      <li>swap the order of the implication, or negate the if‑part or then‑part.</li>
+    </ul>
+
+    <p>
+      After writing each new problem, repeat tasks (i)–(ii). Clearly state which
+      original problem you modified.
+    </p>
+</statement>
+</problem>
+
+  </page>
+
+</handout>
+</section>
