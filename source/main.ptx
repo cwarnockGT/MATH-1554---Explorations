@@ -27,6 +27,7 @@
     <xi:include href="./exploration-1.ptx" />
     <xi:include href="./exploration-2.ptx" />
     <xi:include href="./exploration-3.ptx" />
+    <xi:include href="./exploration-4.ptx" />
   </article>
 
 </pretext>
