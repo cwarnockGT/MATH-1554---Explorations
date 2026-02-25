@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-5">
+  <title>Exploration 5, due March 1</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="transformation-example">
+    <title>Exploration 5, due March 1</title>
+  <page>
+    <p>
+        Make sure to familariaze yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+      </p>
+        
+    <p>
+      In this exploration, we will investigate the relationship between Linear Transformations and the determinant.
+    </p>
+
+    <problem xml:id="exp5-step1" workspace="2in">
+      <title>Sketch a Parallelogram <m>S</m></title>     
+      <statement>
+        <p>         
+        Sketch a parallelogram somewhere in <m>\mathbb{R}^2</m> such that none of its
+          vertices lie at the origin. Label the vertices <m>a,b,c,d</m> and record the
+          coordinates <m>(x_1,x_2)</m> of each point. Label the parallelogram
+          <m>S</m> for <em>shape</em>.
+
+        </p>
+      </statement>
+    </problem>
+
+    <problem xml:id="exp5-step2" workspace="1.5in">
+      <title>Compute the area of <m>S</m></title>
+      <statement>
+        <p>
+        Showing your work, compute <m>\mathrm{area}(S)</m> by identifying a pair
+        of vectors <m>\vec v_1,\vec v_2</m> that determine the parallelogram. 
+        Go back to your sketch in <xref ref="exp5-step1"/> and label the vectors <m>\vec v_1</m> and <m>\vec v_2</m>.
+        </p>
+      </statement>
+    </problem>
+    
+    
+
+    <problem xml:id="exp5-step3" workspace="1.5in">
+      <title>Apply a Linear Transformation</title>
+      <statement>
+        <p>
+          Choose a (somewhat <xref ref="random" text="custom">random</xref>) linear transformation <m>T: \mathbb{R}^2 \rightarrow \mathbb{R}^2</m> which can be anything but must satisfy:
+        <ul>
+          <li>The standard matrix of <m>T</m> is <strong>not diagonal</strong>.</li>
+          <li>The transformation is <strong>invertible</strong> (one‑to‑one and onto).</li>
+          <li>
+            The transformation is <strong>not</strong> a single rotation or a single reflection.
+            However, a rotation followed by a reflection is permitted.
+          </li>
+        </ul>
+    </p>
+      </statement>
+    </problem>
+
+     </page>
+
+  <page>
+    <title>Continued</title>
+
+    <problem xml:id="exp5-step4" workspace="2in">
+      <title>Sketch the Parallelogram <m>T(S)</m></title>
+      <statement>
+        <p>
+          Transform your shape <m>S</m> from <xref ref="exp5-step1"/> using your transformation <m>T</m> from <xref ref="exp5-step3"/>. That is, sketch the <term>image</term> of <m>S</m> under <m>T</m> in <m>\mathbb{R}^2</m>. Make a new sketch  for this part and label the images <m>T(a), T(b), T(c), T(d)</m> and give the new coordinates for all four points.
+        </p>
+      </statement>
+    </problem>
+
+
+
+    <problem xml:id="exp5-step5" workspace="1.5in">
+      <title>Compute the area of <m>T(S)</m></title>
+      <statement>
+        <p>
+          Showing your work, compute <m>\mathrm{area}(T(S))</m> using the same method as in <xref ref="exp5-step2"/> by finding the images of <m>\vec v_1</m> and <m>\vec v_2</m> under <m>T</m>. Go back to your sketch in <xref ref="exp5-step4"/> and label the vectors <m>T(\vec v_1)</m> and <m>T(\vec v_2)</m>.
+        </p>
+      </statement>
+    </problem>
+
+    <problem xml:id="exp5-step6" workspace="1.5in">
+      <title>Determinant of <m>A</m></title>
+      <statement>
+        <p>
+          Compute <m>\det(A)</m> where <m>A </m> is the standard matrix of <m>T(\vec x) = A\vec x</m>, and compare the areas <m>\mathrm{area}(S)</m> and <m>\mathrm{area}(T(S))</m> with the value of <m>\det(A)</m>. Write a general formula whihc relates these three quantities.
+        </p>
+      </statement>
+    </problem>
+
+    </page>
+</handout>
+</section>
