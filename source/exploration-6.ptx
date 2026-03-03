@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-6">
+  <title>Exploration 6, due March 8</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 6, due March 8</title>
+  <page>
+    <p>
+        Make sure to familariaze yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+      </p>
+
+    <p>
+      For each of the six problems below, complete tasks (a)–(c).
+    </p>
+
+    <ol marker="a">
+      <li>
+        <p>
+          Write the statement and indicate whether it is <strong>true</strong> or
+          <strong>false</strong>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Provide examples according to the following rules:
+        </p>
+        <ul>
+          <li>If the statement is <strong>true</strong>, give an example.</li>
+          <li>If the statement is <strong>false and impossible</strong>,
+              give a counterexample.</li>
+          <li>If the statement is <strong>false but possible</strong>,
+              give both an example and a counterexample.</li>
+          </ul>
+
+        <p>
+          Your matrices and vectors may be simple, but must satisfy:
+        </p>
+        <ul>
+          <li>
+            Neither <m>\lambda_1</m> nor <m>\lambda_2</m> may be <m>0</m> or <m>1</m>.
+          </li>
+          <li>
+            Neither <m>\vec v_1</m> nor <m>\vec v_2</m> may be a scalar multiple of
+            <m>\vec e_1</m> or <m>\vec e_2</m>.
+          </li>
+        </ul>
+
+        <p>
+          Justify that your examples satisfy the statement using calculations.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Rephrase the statement using common language. For example, the statement in <xref ref="ex6-st1"/> could be rewritten "If <m>\vec v_1, \vec v_2</m> are eigenvectors of <m>A</m> corresponding to the same eigenvalue, then <m>\vec v_1</m> and <m>\vec v_2</m> are the same vector".
+        </p>
+      </li>
+    </ol>
+
+    <p><nbsp/></p>
+
+    <p>
+      Assume throughout that
+      <m>A\vec v_1=\lambda_1\vec v_1</m> and <m>B\vec v_2=\lambda_2\vec v_2</m>.
+    </p>
+
+
+    <!-- Statement 1 -->
+    <problem xml:id="ex6-st1" workspace="true">
+      <statement>
+        <p>
+          If <m>A=B</m> and <m>\lambda_1=\lambda_2</m>, then <m>\vec v_1=\vec v_2</m>.
+        </p>
+      </statement>
+    </problem>
+
+    <p><nbsp/></p>
+
+    <!-- Statement 2 -->
+    <problem xml:id="ex6-st2" workspace="true">
+      <statement>
+        <p>
+          If <m>A=B</m> and <m>3\vec v_1=\vec v_2</m>, then <m>3\lambda_1=\lambda_2</m>.
+        </p>
+      </statement>
+    </problem>
+
+    <p><nbsp/></p>
+
+
+  </page>
+
+  <!-- ================= PAGE 3: Statements 4–6 ================= -->
+  <page>
+    
+    <!-- Statement 3 -->
+    <problem xml:id="ex6-st3" workspace="true">
+      <statement>
+        <p>
+          If <m>A=B</m> and <m>\lambda_1\neq\lambda_2</m>, then
+          <m>\{\vec v_1,\vec v_2\}</m> is linearly independent.
+        </p>
+      </statement>
+    </problem>
+
+    <p><nbsp/></p>
+    
+    <!-- Statement 4 -->
+    <problem xml:id="ex6-st4" workspace="true">
+      <statement>
+        <p>
+          If <m>A=B</m> and <m>\{\vec v_1,\vec v_2\}</m> is linearly independent,
+          then <m>\lambda_1\neq \lambda_2</m>.
+        </p>
+      </statement>
+    </problem>
+
+    <p><nbsp/></p>
+
+    <!-- Statement 5 -->
+    <problem xml:id="ex6-st5" workspace="true">
+      <statement>
+        <p>
+          If <m>A\neq B</m> and <m>\vec v_1=\vec v_2</m>, then
+          <m>\vec v_1</m> is an eigenvector of <m>AB</m>.
+        </p>
+      </statement>
+    </problem>
+
+    <p><nbsp/></p>
+
+    <!-- Statement 6 -->
+    <problem xml:id="ex6-st6" workspace="true">
+      <statement>
+        <p>
+          If <m>A=B</m> and <m>\lambda_1=\lambda_2\neq 0</m> and
+          <m>\vec v_1\neq -\vec v_2</m>, then
+          <m>\vec v_1+\vec v_2</m> is an eigenvector of <m>A</m> with eigenvalue
+          <m>2\lambda</m>.
+        </p>
+      </statement>
+    </problem>
+
+  </page>
+
+</handout>
+</section>
