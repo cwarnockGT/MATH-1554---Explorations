@@ -233,6 +233,69 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Determinant of <span class=\"process-math\">\\(A\\)<\/span>.",
   "body": " Determinant of   Compute where is the standard matrix of , and compare the areas and with the value of . Write a general formula whihc relates these three quantities.   "
+},
+{
+  "id": "exploration-6",
+  "level": "1",
+  "url": "exploration-6.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 6, due March 8",
+  "body": " Exploration 6, due March 8   Exploration 6, due March 8   Make sure to familariaze yourself with the Exploration Instructions found on the home page.  For each of the six problems below, complete tasks (a)–(c).    Write the statement and indicate whether it is true or false .    Provide examples according to the following rules:   If the statement is true , give an example.  If the statement is false and impossible , give a counterexample.  If the statement is false but possible , give both an example and a counterexample.   Your matrices and vectors may be simple, but must satisfy:   Neither nor may be or .  Neither nor may be a scalar multiple of or .   Justify that your examples satisfy the statement using calculations.    Rephrase the statement using common language. For example, the statement in could be rewritten \"If are eigenvectors of corresponding to the same eigenvalue, then and are the same vector\".     Assume throughout that and .     If and , then .        If and , then .           If and , then is linearly independent.        If and is linearly independent, then .        If and , then is an eigenvector of .        If and and , then is an eigenvector of with eigenvalue .      "
+},
+{
+  "id": "ex6-st1",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st1",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  If and , then .   "
+},
+{
+  "id": "ex6-st2",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st2",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  If and , then .   "
+},
+{
+  "id": "ex6-st3",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st3",
+  "type": "Problem",
+  "number": "3",
+  "title": "",
+  "body": "  If and , then is linearly independent.   "
+},
+{
+  "id": "ex6-st4",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st4",
+  "type": "Problem",
+  "number": "4",
+  "title": "",
+  "body": "  If and is linearly independent, then .   "
+},
+{
+  "id": "ex6-st5",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st5",
+  "type": "Problem",
+  "number": "5",
+  "title": "",
+  "body": "  If and , then is an eigenvector of .   "
+},
+{
+  "id": "ex6-st6",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st6",
+  "type": "Problem",
+  "number": "6",
+  "title": "",
+  "body": "  If and and , then is an eigenvector of with eigenvalue .   "
 }
 ]
 
