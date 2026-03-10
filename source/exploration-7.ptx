@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-7">
+  <title>Exploration 7, due March 15</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 7, due March 15</title>
+
+    <p>
+        Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+      </p>
+
+    <p>
+      This exploration contains three separate problems.
+    </p>
+
+    <problem xml:id="wk9-part1" workspace="1.5in">
+      <statement>
+        <p>
+          Find a <m>2\times 2</m> matrix <m>A</m> <em>with real entries</em> that has
+          <strong>no real eigenvalues</strong>.  
+          Verify your answer by computing the characteristic polynomial of <m>A</m>
+          and explaining why it has no real roots.
+        </p>
+      </statement>
+    </problem>
+
+    <problem>
+        <introduction>
+            <p>
+                For each of the following matrices <m>A</m> and linear transformations <m>T_A(\vec x) = A\vec x</m>, do the following:
+            <ul>
+                <li>Find all eigenvalues and a corresponding eigenvector for each eigenvalue <strong>without calculation</strong> by thinking it out using the linear transformation's <strong>geometric interpretation</strong>.</li>
+                <li>Graph each eigenvector and its image under the transformation.</li>
+                <li>Graph a random <strong>non‑eigenvector</strong> and its image.</li>
+                <li>Verify correctness using matrix multiplication.</li>
+                <li>
+                    <p>Confirm your intuition by computing:
+                    <ul>
+                    <li>all eigenvalues,</li>
+                    <li>algebraic and geometric multiplicities,</li>
+                    <li>a basis for each eigenspace.</li>
+                    </ul>
+                    You may need to do this step first for any transformation that you cannot visualize.</p>
+                </li>
+            </ul>
+            </p>
+        </introduction>
+        <task workspace="true" xml:id="ex7-a">
+            <statement>
+                <p>
+                    <m>A = \begin{bmatrix} 0 \amp 0 \\ 0 \amp 0 \end{bmatrix}</m>, <m>T_A</m> is the zero transformation.
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>A=\begin{bmatrix} 1/2\amp 1/2 \\ 1/2\amp 1/2 \end{bmatrix}</m>, <m>T_A</m> is projection onto <m>x_1 = x_2</m> line.
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>A=\begin{bmatrix} \cos(\theta)\amp -\sin(\theta) \\ \sin(\theta)\amp \cos(\theta) \end{bmatrix}</m>, <m>T_A</m> is rotation by <m>\theta</m>. Also, state the values of <m>\theta</m> for which <m>A</m> has real eigenvectors.
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>A=\begin{bmatrix} 0\amp 3 \\ 3\amp 0 \end{bmatrix}</m>, <m>T_A</m> is reflect about the line <m>x_1 = x_2</m> and stretch by a factor of 3.
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>A=\begin{bmatrix} 1\amp 2 \\ 2\amp 1 \end{bmatrix}</m>, <em>hint: try <m>\begin{pmatrix} 1 \\ 1 \end{pmatrix}</m> and <m>\begin{pmatrix} 1 \\ -1 \end{pmatrix}</m></em>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>A=\begin{bmatrix} 1\amp 0 \\ 1\amp 1 \end{bmatrix}</m>, <m>T_A</m> is a shear.
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>A=\begin{bmatrix} 1\amp 0\amp 0 \\ 0\amp 0\amp 0 \\ 0\amp 0\amp 1 \end{bmatrix}</m>, <m>T_A</m> is project to the side-wall.
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>A=\begin{bmatrix} 0\amp -1\amp 0 \\ 1\amp 0\amp 0 \\ 0\amp 0\amp 1 \end{bmatrix}</m>, <m>T_A</m> is rotate by <m>90^\circ</m> about the <m>x_3</m>-axis.
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+
+    <problem xml:id="wk9-rowops" workspace="true">
+      <statement>
+        <p>
+          Pick any two transformations from the <m>\mathbb{R}^2</m> list above (except the matrix in <xref ref="ex7-a"/>).
+          For each one:
+        </p>
+
+        <ul>
+          <li>Apply a single row operation to <m>A</m> to form a new matrix <m>B</m>.</li>
+          <li>
+            Compute the eigenvalues of <m>B</m>. Ensure that at least one eigenvalue of <m>B</m> differs from the eigenvalues of <m>A</m> (this is <strong>not</strong> guaranteed).
+          </li>
+          <li>Compute the corresponding eigenvectors.</li>
+          <li>Compare: Are the eigenvectors for <m>B</m> the same as for <m>A</m>? Are they different?</li>
+        </ul>
+
+        <p>
+          Finish the sentence:
+        </p>
+
+        <p>
+          <em>“When you do a single row operation to a matrix <m>A</m>, then the eigenvalues … and the eigenvectors … .”</em>
+        </p>
+
+      </statement>
+    </problem>
+
+</handout>
+
+</section>
