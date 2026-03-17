@@ -332,6 +332,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Pick any two transformations from the list above (except the matrix in ). For each one:   Apply a single row operation to to form a new matrix .  Compute the eigenvalues of . Ensure that at least one eigenvalue of differs from the eigenvalues of (this is not guaranteed).  Compute the corresponding eigenvectors.  Compare: Are the eigenvectors for the same as for ? Are they different?   Finish the sentence:   “When you do a single row operation to a matrix , then the eigenvalues … and the eigenvectors … .”    "
+},
+{
+  "id": "exploration-8",
+  "level": "1",
+  "url": "exploration-8.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 8, due March 22",
+  "body": " Exploration 8, due March 22   Exploration 8, due March 22   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we examine how the linear algebra tools developed in , including linear transformations, eigenvalues, and eigenvectors, extend naturally to more abstract vector spaces such as spaces of polynomials.    Let denote the -dimensional vector space of polynomials of degree at most  ; that is, let . It follows that is the 2-dimensional vector space of all linear (and constant) polynomials. Consider the linear transformation defined by . So takes a linear polynomial as an input and produces a linear polynomial as an output. For example, if , then and , so .   Compute the following images of :                         Note: , as expected from linearity.      Coordinate Vectors in Basis    Just as in , we may choose a basis for . Consider the following basis for : We define the coordinate vector of with respect to the basis in the same way we do for . So, if with , its coordinate vector is: This relationship is how we can use our Linear Algebra knowledge about to determine results about the more abstract vector spaces.   Determine the -coordinate vectors of the following vectors. Note that you must first find the images of the vectors before you can find the -coordinate vectors.                     The -matrix of is given by . Determine and find its eigenvalues. Hint: should be a upper triangular matrix.         Eigenvectors of    For each eigenvalue of , find at least one eigenvector.       Recall that acts on polynomials in , not on vectors in .We can convert each of these eigenvectors back into its corresponding element in by remembering that these vectors are actually the -coordinate vector for some polynomial in .  Determine the polynomials and which are represented by the eigenvectors found in .       Verify that the polynomials found in satisfy the eigenvalue equation; that is, verify that .      "
+},
+{
+  "id": "ex-8-part-a",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-a",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  Let denote the -dimensional vector space of polynomials of degree at most  ; that is, let . It follows that is the 2-dimensional vector space of all linear (and constant) polynomials. Consider the linear transformation defined by . So takes a linear polynomial as an input and produces a linear polynomial as an output. For example, if , then and , so .   Compute the following images of :                        "
+},
+{
+  "id": "ex-8-part-b",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-b",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  Just as in , we may choose a basis for . Consider the following basis for : We define the coordinate vector of with respect to the basis in the same way we do for . So, if with , its coordinate vector is: This relationship is how we can use our Linear Algebra knowledge about to determine results about the more abstract vector spaces.   Determine the -coordinate vectors of the following vectors. Note that you must first find the images of the vectors before you can find the -coordinate vectors.                 "
+},
+{
+  "id": "ex-8-part-c",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-c",
+  "type": "Problem",
+  "number": "3",
+  "title": "",
+  "body": "  The -matrix of is given by . Determine and find its eigenvalues. Hint: should be a upper triangular matrix.    "
+},
+{
+  "id": "ex-8-part-d",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-d",
+  "type": "Problem",
+  "number": "4",
+  "title": "",
+  "body": "  For each eigenvalue of , find at least one eigenvector.   "
+},
+{
+  "id": "ex-8-part-e",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-e",
+  "type": "Problem",
+  "number": "5",
+  "title": "",
+  "body": "  Recall that acts on polynomials in , not on vectors in .We can convert each of these eigenvectors back into its corresponding element in by remembering that these vectors are actually the -coordinate vector for some polynomial in .  Determine the polynomials and which are represented by the eigenvectors found in .   "
+},
+{
+  "id": "ex-8-part-f",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-f",
+  "type": "Problem",
+  "number": "6",
+  "title": "",
+  "body": "  Verify that the polynomials found in satisfy the eigenvalue equation; that is, verify that .   "
 }
 ]
 
