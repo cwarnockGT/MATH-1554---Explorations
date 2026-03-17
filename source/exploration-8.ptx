@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-8">
+  <title>Exploration 8, due March 22</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 8, due March 22</title>
+    <page>
+
+    <p>
+        Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+    </p>
+
+    <p>
+      In this exploration, we examine how the linear algebra tools developed in
+      <m>\mathbb{R}^n</m>, including linear transformations, eigenvalues, and eigenvectors,
+      extend naturally to more abstract vector spaces such as spaces of polynomials.
+    </p>
+
+    <problem xml:id="ex-8-part-a">
+        <introduction>
+            <p>
+            Let <m>\mathbb{P}_n</m> denote the <m>(n+1)</m>-dimensional vector space of polynomials of
+            degree <em>at most</em> <m>n</m>; that is, let <me>\mathbb{P}_n = \left\{a_nx^n + a_{n-1}x^{n-1} + \cdots a_1x + a_0 \ : \ a_i \in\mathbb{R}\right\}</me>. It follows that <m>\mathbb{P}_1</m> is the 2-dimensional vector space of all linear (and constant) polynomials. Consider the linear transformation <m>T:\mathbb{P}_1\to\mathbb{P}_1</m> defined by <me>T(p(x)) = p(0)x + p(2)</me>. So <m>T</m> takes a linear polynomial as an input and produces a linear polynomial as an output. For example, if <m>p(x)=-5x+6</m>, then <m>p(0)=6</m> and <m>p(2)=-4</m>, so
+            <me>T(p(x)) = T(-5x + 6) = p(0)x + p(2) = 6x-4</me>.
+            </p>
+            <p><nbsp/></p>
+            <p>
+                Compute the following images of <m>T</m>:
+            </p>
+        </introduction>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>T(x)</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>T(1)</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    <m>T(3x-7)</m>
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+    <p>
+        Note: <m>T(3x-7)=3T(x)-7T(1)</m>, as expected from linearity.
+    </p>
+
+    <p><nbsp/></p>
+
+  </page>
+
+  <!-- ================= PAGE 2 ================= -->
+  <page>
+    <title>Coordinate Vectors in Basis <m>\mathcal{B}=\{-x+1,\,2x+1\}</m></title>
+
+    <problem xml:id="ex-8-part-b">
+        <introduction>
+            <p>
+            Just as in <m>\mathbb{R}^n</m>, we may choose a basis for <m>\mathbb{P}_1</m>.
+            Consider the following basis for <m>\mathbb{P}_1</m>: <me>\mathcal{B}=\{-x+1,\;2x+1\}.</me> We define the coordinate vector of <m>p(x) \in \mathbb{P}_1</m> with respect to the basis <m>\mathcal{B}</m> in the same way we do for <m>\mathbb{R}^n</m>. So, if  <me>p(x)=a(-x+1)+b(2x+1)</me> with <m>a,b\in\mathbb{R}</m>, its coordinate vector is: <me>\left[p(x)\right]_{\mathcal{B}}=\begin{bmatrix} a \\ b\end{bmatrix}.</me> This relationship is how we can use our Linear Algebra knowledge about <m>\mathbb{R}^n</m> to determine results about the more abstract vector spaces.</p>
+            <p><nbsp/></p>
+            <p>Determine the <m>\mathcal{B}</m>-coordinate vectors of the following vectors. Note that you must first find the images of the vectors before you can find the <m>\mathcal{B}</m>-coordinate vectors.</p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>\left[T(-x+1)\right]_{\mathcal{B}}</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    <m>\left[T(2x+1)\right]_{\mathcal{B}}</m>
+                </p>
+            </statement>
+        </task>
+        
+    </problem>
+
+    <p><nbsp/></p>
+
+    <problem xml:id="ex-8-part-c">
+        <statement workspace="1in">
+            <p>
+                The <m>\mathcal{B}</m>-matrix of <m>T</m> is given by <me>T_\mathcal{B} = \begin{bmatrix} \left[T(-x+1)\right]_{\mathcal{B}} \amp \left[T(2x+1)\right]_{\mathcal{B}} \end{bmatrix}</me>. Determine <m>T_\mathcal{B}</m> and find its eigenvalues. <em>Hint: <m>T_\mathcal{B}</m> should be a <m>2 \times 2</m> upper triangular matrix.</em>
+            </p>
+        </statement>
+    </problem>
+
+    <p><nbsp/></p>
+  </page>
+
+  <!-- ================= PAGE 3 ================= -->
+  <page>
+    <title>Eigenvectors of <m>T_\mathcal{B}</m></title>
+
+    <problem xml:id="ex-8-part-d" workspace="true">
+      <statement>
+        <p>
+          For each eigenvalue of <m>T_{\mathcal{B}}</m>, find at least one eigenvector.
+        </p>
+      </statement>
+    </problem>
+
+    <p><nbsp/></p>
+
+    <problem xml:id="ex-8-part-e" workspace="true">
+        <statement >
+            <p>
+            Recall that <m>T</m> acts on polynomials in <m>\mathbb{P}_1</m>, not on vectors in <m>\mathbb{R}^2</m>.We can convert each of these eigenvectors back into its corresponding element in <m>\mathbb{P}_1</m> by remembering that these vectors are actually the <m>\mathcal{B}</m>-coordinate vector for some polynomial in <m>\mathbb{P}_1</m>. 
+            </p>
+            <p>
+                Determine the polynomials <m>p_{\lambda_1}(x)</m> and <m>p_{\lambda_2}(x)</m> which are represented by the eigenvectors found in <xref ref="ex-8-part-d"/>.
+            </p>
+        </statement>
+    </problem>
+
+    <p><nbsp/></p>
+
+
+    <problem xml:id="ex-8-part-f" workspace="true">
+        <statement>
+            <p>
+            Verify that the polynomials found in <xref ref="ex-8-part-e"/> satisfy the eigenvalue equation; that is, verify that <me>T(p_{\lambda_1}(x)) = \lambda_1p_{\lambda_1}(x) \quad \text{and} \quad T(p_{\lambda_2}(x)) = \lambda_2p_{\lambda_2}(x)</me>.
+            </p>
+        </statement>
+    </problem> 
+
+  </page>
+
+</handout>
+
+</section>
