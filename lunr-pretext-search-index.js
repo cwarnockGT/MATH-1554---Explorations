@@ -395,6 +395,33 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  Verify that the polynomials found in satisfy the eigenvalue equation; that is, verify that .   "
+},
+{
+  "id": "exploration-9",
+  "level": "1",
+  "url": "exploration-9.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 9, due April 5",
+  "body": " Exploration 9, due April 5   Exploration 9, due April 5  Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we will investigate least squares solutions and orthogonal projections.    Let and .     Show that the system is inconsistent.      Determine the vector . Note that the columns of are not orthogonal.      Represent as a linear combination of the columns of .      Set up and solve the normal equations for to find the least square solution. Compare your result to Problem 1(c) .      Fill in the blanks: When you write as a linear combination of , then the in the linear combination are the entries of .       Let and . We will repeat similar steps to .     Determine the vector .      Represent as a linear combination of the columns of .      What is different about Problem 2(b) compared to Problem 1(c) .      Set up and solve the normal equations for to find the least square solution. Compare your result to Problem 2(b) .      Fill in the blanks: If the columns of are linearly dependent , then there are least squares solutions. This does not mean that there are vectors in which are equally close to , but instead that there are vectors in which map to .      "
+},
+{
+  "id": "ex-9-pr-1",
+  "level": "2",
+  "url": "exploration-9.html#ex-9-pr-1",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  Let and .     Show that the system is inconsistent.      Determine the vector . Note that the columns of are not orthogonal.      Represent as a linear combination of the columns of .      Set up and solve the normal equations for to find the least square solution. Compare your result to Problem 1(c) .      Fill in the blanks: When you write as a linear combination of , then the in the linear combination are the entries of .    "
+},
+{
+  "id": "exploration-9-2-5",
+  "level": "2",
+  "url": "exploration-9.html#exploration-9-2-5",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  Let and . We will repeat similar steps to .     Determine the vector .      Represent as a linear combination of the columns of .      What is different about Problem 2(b) compared to Problem 1(c) .      Set up and solve the normal equations for to find the least square solution. Compare your result to Problem 2(b) .      Fill in the blanks: If the columns of are linearly dependent , then there are least squares solutions. This does not mean that there are vectors in which are equally close to , but instead that there are vectors in which map to .    "
 }
 ]
 
