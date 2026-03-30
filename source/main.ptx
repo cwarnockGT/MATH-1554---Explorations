@@ -8,6 +8,7 @@
     <macros>
       \newcommand{\foo}{b^{ar}}
       \newcommand{\aug}{\fboxsep=-\fboxrule\!\!\!\fbox{\strut}\!\!\!}
+      \newcommand{\Col}{\operatorname{Col}}
     </macros>
 
     <latex-image-preamble>
@@ -32,6 +33,7 @@
     <xi:include href="./exploration-6.ptx" />
     <xi:include href="./exploration-7.ptx" />
     <xi:include href="./exploration-8.ptx" />
+    <xi:include href="./exploration-9.ptx" />
   </article>
 
 </pretext>

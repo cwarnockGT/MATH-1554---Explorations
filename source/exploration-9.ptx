@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-9">
+  <title>Exploration 9, due April 5</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 9, due April 5</title>
+
+    <p>
+        Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+    </p>
+
+    <p>
+        In this exploration, we will investigate least squares solutions and orthogonal projections. 
+    </p>
+
+    <problem xml:id="ex-9-pr-1">
+        <introduction>
+            <p>
+                Let <m> A = \begin{bmatrix} 1 \amp 4 \\ -1 \amp 2 \\ 1 \amp 4 \end{bmatrix}</m> and <m>\vec b = \begin{bmatrix} 3 \\ -1 \\ 5 \end{bmatrix}</m>.
+            </p>
+        </introduction>
+        <task xml:id="ex-9-part-a" workspace="1.5in">
+            <statement>
+                <p>
+                    Show that the system <m>A\vec x = \vec b</m> is inconsistent.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="ex-9-part-b" workspace="4in">
+            <statement>
+                <p>
+                    Determine the vector <m>\widehat b = \operatorname{proj}_{\Col(A)}\vec b</m>. Note that the columns of <m>A</m> are <em>not</em> orthogonal.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="ex-9-part-c" workspace="2in">
+            <statement>
+                <p>
+                    Represent <m>\widehat b</m> as a linear combination of the columns of <m>A</m>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="ex-9-part-d" workspace="4in">
+            <statement>
+                <p>
+                    Set up and solve the normal equations for <m>A\vec x = \vec b</m> to find the least square solution. Compare your result to <xref ref="ex-9-part-c" text="custom">Problem 1(c)</xref>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="ex-9-part-e">
+            <statement>
+                <p>
+                    Fill in the blanks: When you write <m>\widehat b = \operatorname{proj}_{\Col(A)}\vec b</m> as a linear combination of <m>\underline{\hspace{3in}}</m>, then the <m>\underline{\hspace{1in}}</m> in the linear combination are the entries of <m>\underline{\hspace{4in}}</m>.
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+
+    <problem>
+        <introduction>
+            <p>
+                Let <m> A = \begin{bmatrix} 1 \amp 4 \\ -1 \amp -4 \\ 1 \amp 4 \end{bmatrix}</m> and <m>\vec b = \begin{bmatrix} 3 \\ -1 \\ 5 \end{bmatrix}</m>. We will repeat similar steps to <xref ref="ex-9-pr-1"/>.
+            </p>
+        </introduction>
+        <task workspace="5in">
+            <statement>
+                <p>
+                    Determine the vector <m>\widehat b = \operatorname{proj}_{\Col(A)}\vec b</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in" xml:id="ex-9-pr-2-b">
+            <statement>
+                <p>
+                    Represent <m>\widehat b</m> as a linear combination of the columns of <m>A</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    What is different about <xref ref="ex-9-pr-2-b" text="custom">Problem 2(b)</xref> compared to <xref ref="ex-9-part-c" text="custom">Problem 1(c)</xref>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="4in">
+            <statement>
+                <p>
+                    Set up and solve the normal equations for <m>A\vec x = \vec b</m> to find the least square solution. Compare your result to <xref ref="ex-9-pr-2-b" text="custom">Problem 2(b)</xref>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                     Fill in the blanks: If the columns of <m>A</m> are linearly <em>dependent</em>, then there are <m>\underline{\hspace{3in}}</m> least squares solutions. This does not mean that there are <m>\underline{\hspace{3in}}</m> vectors in <m>\Col(A)</m> which are equally close to <m>\underline{\hspace{1in}}</m>, but instead that there are <m>\underline{\hspace{3in}}</m> vectors in <m>\mathbb{R}^n</m> which map to <m>\underline{\hspace{1in}}</m>.
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+</handout>
+</section>
