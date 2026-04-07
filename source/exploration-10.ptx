@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-10">
+  <title>Exploration 10, due April 12</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 10, due April 12</title>
+
+    <p>
+        Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+    </p>
+
+    <p>
+        In this exploration, we will practice with polynomial regression curves and determine how accurately they represent data.
+    </p>
+
+    <problem xml:id="ex-10-a">
+        <introduction>
+            <p>
+                For each of the curves given in (a) - (d), do the following:
+                <ol marker="(1)">
+                    <li>
+                        <p>
+                            Find the values of <m>a</m> and <m>b</m> that yeild the regression curve which best fits the points <me>(-3,2), (-1,1), (0,-1), (2,4)</me>. For full points, you need to show how you setup each system and how you formed the augmented matrix for the normal equations. You are <em>not</em> required to solve the systems by hand and can make use of online calculators.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine how accurately the curve predicts the indicated points. For example, if the curve is <m>y = f(x)</m>, then its accuracy would be the distance the vector of target <m>y</m>-values is from the vector of predicted <m>y</m>-values. To calculate this, find the magnitude of <me>\begin{bmatrix} 2 \\ 1 \\ -1 \\ 4 \end{bmatrix} - \begin{bmatrix} f(-3) \\ f(-1) \\ f(0) \\ f(2) \end{bmatrix}</me>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </introduction>
+        <task workspace="5in">
+            <statement>
+                <p>
+                    <m>y = ax + b</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="7in">
+            <statement>
+                <p>
+                    <m>y = ax^2 + bx</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="7in">
+            <statement>
+                <p>
+                    <m>y = ax^3 + bx</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="7in">
+            <statement>
+                <p>
+                    <m>y = ax^4 + bx^2</m>
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+    <problem workspace="1in">
+        <statement>
+            <p>
+                Which of the four curves fits the data the best? Why?
+            </p>
+        </statement>
+    </problem>
+
+    <problem workspace="4in">
+        <statement>
+            <p>
+                 Create your own regression polynomial with two parameters and repeat Steps (1) and (2) from <xref ref="ex-10-a"/>. Is your curve a better fit than the given curves?
+            </p>
+        </statement>
+    </problem>
+
+</handout>
+</section>
