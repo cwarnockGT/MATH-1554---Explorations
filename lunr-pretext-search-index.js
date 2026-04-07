@@ -422,6 +422,42 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Let and . We will repeat similar steps to .     Determine the vector .      Represent as a linear combination of the columns of .      What is different about Problem 2(b) compared to Problem 1(c) .      Set up and solve the normal equations for to find the least square solution. Compare your result to Problem 2(b) .      Fill in the blanks: If the columns of are linearly dependent , then there are least squares solutions. This does not mean that there are vectors in which are equally close to , but instead that there are vectors in which map to .    "
+},
+{
+  "id": "exploration-10",
+  "level": "1",
+  "url": "exploration-10.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 10, due April 12",
+  "body": " Exploration 10, due April 12   Exploration 10, due April 12  Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we will practice with polynomial regression curves and determine how accurately they represent data.    For each of the curves given in (a) - (d), do the following:   Find the values of and that yeild the regression curve which best fits the points . For full points, you need to show how you setup each system and how you formed the augmented matrix for the normal equations. You are not required to solve the systems by hand and can make use of online calculators.    Determine how accurately the curve predicts the indicated points. For example, if the curve is , then its accuracy would be the distance the vector of target -values is from the vector of predicted -values. To calculate this, find the magnitude of .                                     Which of the four curves fits the data the best? Why?      Create your own regression polynomial with two parameters and repeat Steps (1) and (2) from . Is your curve a better fit than the given curves?     "
+},
+{
+  "id": "ex-10-a",
+  "level": "2",
+  "url": "exploration-10.html#ex-10-a",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  For each of the curves given in (a) - (d), do the following:   Find the values of and that yeild the regression curve which best fits the points . For full points, you need to show how you setup each system and how you formed the augmented matrix for the normal equations. You are not required to solve the systems by hand and can make use of online calculators.    Determine how accurately the curve predicts the indicated points. For example, if the curve is , then its accuracy would be the distance the vector of target -values is from the vector of predicted -values. To calculate this, find the magnitude of .                                  "
+},
+{
+  "id": "exploration-10-2-5",
+  "level": "2",
+  "url": "exploration-10.html#exploration-10-2-5",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  Which of the four curves fits the data the best? Why?   "
+},
+{
+  "id": "exploration-10-2-6",
+  "level": "2",
+  "url": "exploration-10.html#exploration-10-2-6",
+  "type": "Problem",
+  "number": "3",
+  "title": "",
+  "body": "  Create your own regression polynomial with two parameters and repeat Steps (1) and (2) from . Is your curve a better fit than the given curves?   "
 }
 ]
 
