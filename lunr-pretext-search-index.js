@@ -458,6 +458,42 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Create your own regression polynomial with two parameters and repeat Steps (1) and (2) from . Is your curve a better fit than the given curves?   "
+},
+{
+  "id": "exploration-11",
+  "level": "1",
+  "url": "exploration-11.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 11, due April 19",
+  "body": " Exploration 11, due April 19   Exploration 11, due April 19    Pick two random vectors with no zero entries and few repeated numbers.     Compute the matrix which is a matrix.      Fill in the blanks to the sentences below.  The rows of the matrix are scalar multiples of with scalars that come from .  The columns of the matrix are scalar multiples of with scalars that come from .       Let      Find an orthogonal diagonalization where       Write the spectral decomposition of : .      What is the most accurate rank 1 approximation of ?      What is the most accurate rank 2 approximation of ?       Let be the same matrix in .     Write down the quadratic form .      Write the quadratic form as the quadratic form which has no cross-product terms by using the orthogonal diagonalization from Problem 2(a) .      Find a unit vector which attains the maximum .      Find a unit vector which corresponds to your choice of in Problem 3(c) by using the change of variables . Verify that for your choices of and .      "
+},
+{
+  "id": "ex11-part1",
+  "level": "2",
+  "url": "exploration-11.html#ex11-part1",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  Pick two random vectors with no zero entries and few repeated numbers.     Compute the matrix which is a matrix.      Fill in the blanks to the sentences below.  The rows of the matrix are scalar multiples of with scalars that come from .  The columns of the matrix are scalar multiples of with scalars that come from .    "
+},
+{
+  "id": "ex11-part2",
+  "level": "2",
+  "url": "exploration-11.html#ex11-part2",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  Let      Find an orthogonal diagonalization where       Write the spectral decomposition of : .      What is the most accurate rank 1 approximation of ?      What is the most accurate rank 2 approximation of ?    "
+},
+{
+  "id": "ex11-part3",
+  "level": "2",
+  "url": "exploration-11.html#ex11-part3",
+  "type": "Problem",
+  "number": "3",
+  "title": "",
+  "body": "  Let be the same matrix in .     Write down the quadratic form .      Write the quadratic form as the quadratic form which has no cross-product terms by using the orthogonal diagonalization from Problem 2(a) .      Find a unit vector which attains the maximum .      Find a unit vector which corresponds to your choice of in Problem 3(c) by using the change of variables . Verify that for your choices of and .    "
 }
 ]
 
