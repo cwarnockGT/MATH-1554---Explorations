@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-11">
+  <title>Exploration 11, due April 19</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 11, due April 19</title>
+
+
+    <problem xml:id="ex11-part1">
+      <introduction>
+        <p>
+          Pick two random vectors <m>\vec u,\vec v\in\mathbb{R}^3</m> with no zero entries
+          and few repeated numbers. 
+        </p>
+    </introduction>
+    <task workspace="5in">
+        <statement> 
+            <p>
+                Compute the matrix <m>\vec u\vec v^T</m> which is a <m>3\times 3</m> matrix.
+            </p>
+        </statement> 
+    </task>
+    <task>
+        <statement>
+            <p>
+                Fill in the blanks to the sentences below.
+            </p>
+            <p>
+            The <em>rows</em> of the matrix <m>\vec u\vec v^T</m> are scalar multiples of
+            <m>\underline{\hspace{2in}}</m> with scalars that come from <m>\underline{\hspace{2in}}</m>.
+            </p>
+            <p>
+            The <em>columns</em> of the matrix <m>\vec u\vec v^T</m> are scalar multiples of
+            <m>\underline{\hspace{2in}}</m> with scalars that come from <m>\underline{\hspace{2in}}</m>.
+            </p>
+        </statement>
+    </task>
+    </problem>
+
+
+    <problem xml:id="ex11-part2">
+      <introduction>
+        <p>
+          Let
+          <me>
+          A =
+          \begin{bmatrix}
+            5 \amp 6 \amp 4 \\
+            6 \amp 4 \amp -2 \\
+            4 \amp -2 \amp 9
+          \end{bmatrix}.
+        </me>
+        </p>
+        </introduction>
+        <task xml:id="ex11-part2-a" workspace="6in">
+            <statement>
+                <p>
+                    Find an orthogonal diagonalization <m>A=PDP^T</m>
+                    where
+                    <me>
+                    D =
+                    \begin{bmatrix}
+                        12 \amp 0 \amp 0 \\
+                        0 \amp 9 \amp 0 \\
+                        0 \amp 0 \amp -3
+                    \end{bmatrix}.
+                    </me>
+                </p>
+            </statement>
+        </task>
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Write the spectral decomposition of <m>A</m>:
+                    <me>
+                    A=\lambda_1 \vec v_1\vec v_1^T
+                    +\lambda_2 \vec v_2\vec v_2^T
+                    +\lambda_3 \vec v_3\vec v_3^T
+                    </me>.    
+                </p>
+            </statement>
+        </task>
+        <task workspace = "1in">
+            <statement>
+                <p>
+                    What is the most accurate rank 1 approximation of <m>A</m>?
+                </p>
+            </statement>
+        </task>
+        <task workspace = "1in">
+            <statement>
+                <p>
+                    What is the most accurate rank 2 approximation of <m>A</m>?
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+
+    <problem xml:id="ex11-part3">
+      <introduction>
+        <p>
+          Let <m>A</m> be the same matrix in <xref ref="ex11-part2"/>.
+        </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Write down the quadratic form <m>Q_A(\vec x)=\vec x^T A\vec x</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Write the quadratic form <m>Q_A(\vec x)</m> as the quadratic form <m>Q_D(\vec y)</m> which has no cross-product terms by using the orthogonal diagonalization from <xref ref="ex11-part2-a" text="custom">Problem 2(a)</xref>.
+                </p>
+            </statement>
+        </task>
+        <task xml:id="ex11-part3-c" workspace="2in">
+            <statement>
+                <p>
+                    Find a unit vector <m>\vec y</m> which attains the maximum <me>M = \operatorname{max}\left\{Q_D(\vec y) \ : \ \|\vec y\| = 1 \right\}</me>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Find a unit vector <m>\vec x</m> which corresponds to your choice of <m>\vec y</m> in <xref ref="ex11-part3-c" text="custom">Problem 3(c)</xref> by using the change of variables <m>\vec x = P\vec y</m>. Verify that <m>Q_A(\vec x) = Q_D(\vec y)</m> for your choices of <m>\vec x</m> and <m>\vec y</m>.
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+</handout>
+
+</section>
