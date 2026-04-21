@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Exploration 11, due April 19",
-  "body": " Exploration 11, due April 19   Exploration 11, due April 19    Pick two random vectors with no zero entries and few repeated numbers.     Compute the matrix which is a matrix.      Fill in the blanks to the sentences below.  The rows of the matrix are scalar multiples of with scalars that come from .  The columns of the matrix are scalar multiples of with scalars that come from .       Let      Find an orthogonal diagonalization where       Write the spectral decomposition of : .      What is the most accurate rank 1 approximation of ?      What is the most accurate rank 2 approximation of ?       Let be the same matrix in .     Write down the quadratic form .      Write the quadratic form as the quadratic form which has no cross-product terms by using the orthogonal diagonalization from Problem 2(a) .      Find a unit vector which attains the maximum .      Find a unit vector which corresponds to your choice of in Problem 3(c) by using the change of variables . Verify that for your choices of and .      "
+  "body": " Exploration 11, due April 19   Exploration 11, due April 19  Make sure to familiarize yourself with the Exploration Instructions found on the home page.    Pick two random vectors with no zero entries and few repeated numbers.     Compute the matrix which is a matrix.      Fill in the blanks to the sentences below.  The rows of the matrix are scalar multiples of with scalars that come from .  The columns of the matrix are scalar multiples of with scalars that come from .       Let      Find an orthogonal diagonalization where       Write the spectral decomposition of : .      What is the most accurate rank 1 approximation of ?      What is the most accurate rank 2 approximation of ?       Let be the same matrix in .     Write down the quadratic form .      Write the quadratic form as the quadratic form which has no cross-product terms by using the orthogonal diagonalization from Problem 2(a) .      Find a unit vector which attains the maximum .      Find a unit vector which corresponds to your choice of in Problem 3(c) by using the change of variables . Verify that for your choices of and .      "
 },
 {
   "id": "ex11-part1",
@@ -494,6 +494,51 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Let be the same matrix in .     Write down the quadratic form .      Write the quadratic form as the quadratic form which has no cross-product terms by using the orthogonal diagonalization from Problem 2(a) .      Find a unit vector which attains the maximum .      Find a unit vector which corresponds to your choice of in Problem 3(c) by using the change of variables . Verify that for your choices of and .    "
+},
+{
+  "id": "exploration-12",
+  "level": "1",
+  "url": "exploration-12.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 12, due April 26",
+  "body": " Exploration 12, due April 26   Exploration 12, due April 26  Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we will investigate how the SVD of a matrix can shed light on how multiplication by the matrix transforms the domain geometrically.  For each problem below, let be the linear transformation defined by , where .    Compute the following images of . For each, attempt to describe how acted on the input vector geometrically to produce the output vector. Think about scaling and rotation. It may be helpful to graph the input and output vectors in Desmos 3D or some other 3D graphing utility.                           Using the examples in , can you describe how is acting on an arbitrary vector in ?      Compute the SVD of using the algorithm from class.      Let be the SVD of found in . Note that a rotation matrix along one of the standard planes in has the following form: We will use the above fact, along with the SVD of , to describe how acts on geometrically.     How does act on geometrically?      How does act on geometrically?      How does act on geometrically?      Tying it all together, how does act on geometrically?      "
+},
+{
+  "id": "ex12-part1",
+  "level": "2",
+  "url": "exploration-12.html#ex12-part1",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  Compute the following images of . For each, attempt to describe how acted on the input vector geometrically to produce the output vector. Think about scaling and rotation. It may be helpful to graph the input and output vectors in Desmos 3D or some other 3D graphing utility.                        "
+},
+{
+  "id": "exploration-12-2-6",
+  "level": "2",
+  "url": "exploration-12.html#exploration-12-2-6",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  Using the examples in , can you describe how is acting on an arbitrary vector in ?   "
+},
+{
+  "id": "ex12-part3",
+  "level": "2",
+  "url": "exploration-12.html#ex12-part3",
+  "type": "Problem",
+  "number": "3",
+  "title": "",
+  "body": "  Compute the SVD of using the algorithm from class.   "
+},
+{
+  "id": "ex12-part4",
+  "level": "2",
+  "url": "exploration-12.html#ex12-part4",
+  "type": "Problem",
+  "number": "4",
+  "title": "",
+  "body": "  Let be the SVD of found in . Note that a rotation matrix along one of the standard planes in has the following form: We will use the above fact, along with the SVD of , to describe how acts on geometrically.     How does act on geometrically?      How does act on geometrically?      How does act on geometrically?      Tying it all together, how does act on geometrically?    "
 }
 ]
 
