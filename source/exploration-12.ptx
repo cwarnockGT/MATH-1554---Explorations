@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-12">
+  <title>Exploration 12, due April 26</title>
+<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploration 12, due April 26</title>
+
+    <p>
+        Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+    </p>
+
+    <p>
+        In this exploration, we will investigate how the SVD of a matrix can shed light on how multiplication by the matrix transforms the domain geometrically.
+    </p>
+    <p>
+            For each problem below, let <m>T: \mathbb{R}^3 \rightarrow \mathbb{R}^3</m> be the linear transformation defined by <m>T(\vec x) = A\vec x</m>, where <md>A = \begin{bmatrix} 2\sqrt{3} \amp -1 \amp -1 \\ 2 \amp \sqrt{3} \amp \sqrt{3} \\ 0 \amp -1 \amp 1 \end{bmatrix}</md>.
+    </p>
+
+    <problem xml:id="ex12-part1">
+      <introduction>
+         <p>
+            Compute the following images of <m>T</m>. For each, attempt to describe how <m>A</m> acted on the input vector geometrically to produce the output vector. Think about scaling and rotation. It may be helpful to graph the input and output vectors in Desmos 3D or some other 3D graphing utility.
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement> 
+           <p>
+                <m>T\left(\begin{bmatrix}1 \\ 0 \\ 0 \end{bmatrix}\right)</m>
+           </p>
+        </statement> 
+    </task>
+    <task workspace="0.5in">
+        <statement> 
+           <p>
+                <m>T\left(\begin{bmatrix}0 \\ 1 \\ 1 \end{bmatrix}\right)</m>
+           </p>
+        </statement> 
+    </task>
+    <task workspace="1in">
+        <statement> 
+           <p>
+                <m>T\left(\begin{bmatrix}0 \\ -1 \\ 1 \end{bmatrix}\right)</m>
+           </p>
+        </statement> 
+    </task>
+    </problem>
+
+    <problem workspace="true">
+        <statement>
+            <p>
+                Using the examples in <xref ref="ex12-part1"/>, can you describe how <m>A</m> is acting on an arbitrary vector in <m>\mathbb{R}^3</m>?
+            </p>
+        </statement>
+    </problem>
+
+    <problem workspace="8in" xml:id="ex12-part3">
+        <statement>
+            <p>
+                Compute the SVD of <m>A</m> using the algorithm from class.
+            </p>
+        </statement>
+    </problem>
+
+    <problem xml:id="ex12-part4" workspace="2in">
+        <introduction>
+            <p>
+                Let <m>A = U\Sigma V^T</m> be the SVD of <m>A</m> found in <xref ref="ex12-part3"/>. Note that a rotation matrix along one of the standard planes in <m>\mathbb{R}^3</m> has the following form: <md>
+                    <mrow>\text{Rotation by $\theta$ counterclockwise in the $xy$-plane:} \quad \amp \quad \begin{bmatrix}\cos(\theta) \amp -\sin(\theta) \amp 0 \\ \sin(\theta) \amp \cos(\theta) \amp 0 \\ 0 \amp 0 \amp 1 \end{bmatrix}</mrow>
+                    <mrow>\text{Rotation by $\theta$ counterclockwise in the $xz$-plane:} \quad \amp \quad \begin{bmatrix}\cos(\theta) \amp 0 \amp -\sin(\theta)  \\ 0 \amp 1 \amp 0 \\ \sin(\theta) \amp 0 \amp \cos(\theta) \end{bmatrix}</mrow>
+                    <mrow>\text{Rotation by $\theta$ counterclockwise in the $yz$-plane:} \quad \amp \quad \begin{bmatrix} 1 \amp 0 \amp 0  \\ 0 \amp \cos(\theta) \amp -\sin(\theta) \\ 0 \amp \sin(\theta) \amp \cos(\theta) \end{bmatrix}</mrow>
+                </md>
+                We will use the above fact, along with the SVD of <m>A</m>, to describe how <m>A</m> acts on <m>\mathbb{R}^3</m> geometrically.
+            </p>
+        </introduction>
+        <task workspace="true">
+            <statement>
+                <p>
+                    How does <m>V^T</m> act on <m>\mathbb{R}^3</m> geometrically?
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    How does <m>\Sigma</m> act on <m>\mathbb{R}^3</m> geometrically?
+                </p>
+            </statement>
+        </task>
+        <task workspace="true">
+            <statement>
+                <p>
+                    How does <m>U</m> act on <m>\mathbb{R}^3</m> geometrically?
+                </p>
+            </statement>
+        </task>
+        <task workspace="3in">
+            <statement>
+                <p>
+                    Tying it all together, how does <m>A = U\Sigma V^T</m> act on <m>\mathbb{R}^3</m> geometrically?
+                </p>
+            </statement>
+        </task>
+    </problem>
+
+
+</handout>
+
+</section>
