@@ -20,12 +20,12 @@
   </docinfo>
 
   <article xml:id="explorations">
-    <title>MATH 1554 Explorations - Spring 2026</title>
+    <title>MATH 1554 Explorations - Summer 2026</title>
       
     <!-- <xi:include href="./frontmatter.ptx" /> -->
     
     <xi:include href="./introduction.ptx" />
-    <xi:include href="./exploration-1.ptx" />
+    <!-- <xi:include href="./exploration-1.ptx" />
     <xi:include href="./exploration-2.ptx" />
     <xi:include href="./exploration-3.ptx" />
     <xi:include href="./exploration-4.ptx" />
@@ -36,7 +36,7 @@
     <xi:include href="./exploration-9.ptx" />
     <xi:include href="./exploration-10.ptx" />
     <xi:include href="./exploration-11.ptx" />
-    <xi:include href="./exploration-12.ptx" />
+    <xi:include href="./exploration-12.ptx" /> -->
   </article>
 
 </pretext>
