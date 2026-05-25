@@ -1,31 +1,31 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "explorations",
+  "id": "exploration-1",
   "level": "1",
-  "url": "explorations.html",
-  "type": "Article",
+  "url": "exploration-1.html",
+  "type": "Section",
   "number": "",
-  "title": "MATH 1554 Explorations - Summer 2026",
-  "body": " MATH 1554 Explorations - Summer 2026    These are the Exploration Assignments for Georgia Tech's MATH 1554 Linear Algebra used during the Summer 2026 semester.  Exploration Assignments are submitted through Gradescope and are due each Sunday, by midnight, starting on Week 2. There will be a total of 9 Exploration Assignments, each worth 4 pts, for a total of 36 MQEW pts.  The purpose of exploration activities is to help students gain a deeper understanding of course concepts, come to class more prepared, offer feedback to the instructors on student understanding and course activities, and help students become more aware of their level of understanding of course material. Explorations are open note, open book, you can use any online calculator or MATLAB or online resource such as Chegg, and you can talk about explorations with each other or your instructor - ask for clarification or hints on Piazza; however, your work on the exploration must be entirely your own , and instances of plagiarism will be reported to OSI for disciplinary action and you will receive a zero on the assignment in question.  More information on Exploration Assignments can be found in Section 7.3 of our course syllabus.   Instructions : For each assignment, complete the questions by hand on paper\/tablet. Write neatly, follow directions, and use complete sentences where necessary. You must submit original work , but you can share ideas. Handwritten homework is due on Sunday in Gradescope; no late submissions accepted. Your submission should be a single PDF, organized and labeled appropriately, and oriented correctly.      Note : When we say \"choose a random vector\", or similar language, in explorations, we don't truly mean random. We mean to avoid super simple vectors such as or vectors which make following the instructions very easy. Sometimes simple vector like these will be allowed, and even encouraged. But often in explorations, you will miss the point of the exercise if your vectors are too trivial.  Please, do not ask on Piazza if your vectors are general enough to get full credit. The explorations are assignments which require you to make a judgement call , to explore a particular concept of the course and not to come up with the simplest example which satisfies the minimum requirements of the assignment.      "
+  "title": "Exploration 1, due May 31",
+  "body": " Exploration 1, due May 31   Exploration 1, due May 31  Make sure to familiarize yourself with the Exploration Instructions found on the home page.     Choose two random vectors in which are not multiples of each other.      Choose a random third vector in and express as a linear combination of ; that is, find weights such that       Sketch the vectors in and show, geometrically, how the linear combination from (b) makes sense.        Now, choose two random vectors in which are not multiples of each other. Can every vector be expressed as a linear combination of ? Justify your answer.      Choose a random third vector that can be expressed as a linear combination of . Find appropriate weights such that        Bonus (Not graded) : Sketch the vectors in and show, geometrically, how the linear combination from (b) makes sense.      "
 },
 {
-  "id": "instructions",
+  "id": "exp-1-3",
   "level": "2",
-  "url": "explorations.html#instructions",
-  "type": "Note",
+  "url": "exploration-1.html#exp-1-3",
+  "type": "Problem",
   "number": "1",
   "title": "",
-  "body": " Instructions : For each assignment, complete the questions by hand on paper\/tablet. Write neatly, follow directions, and use complete sentences where necessary. You must submit original work , but you can share ideas. Handwritten homework is due on Sunday in Gradescope; no late submissions accepted. Your submission should be a single PDF, organized and labeled appropriately, and oriented correctly.  "
+  "body": "   Choose two random vectors in which are not multiples of each other.      Choose a random third vector in and express as a linear combination of ; that is, find weights such that       Sketch the vectors in and show, geometrically, how the linear combination from (b) makes sense.    "
 },
 {
-  "id": "random",
+  "id": "exp-1-4",
   "level": "2",
-  "url": "explorations.html#random",
-  "type": "Note",
+  "url": "exploration-1.html#exp-1-4",
+  "type": "Problem",
   "number": "2",
   "title": "",
-  "body": "   Note : When we say \"choose a random vector\", or similar language, in explorations, we don't truly mean random. We mean to avoid super simple vectors such as or vectors which make following the instructions very easy. Sometimes simple vector like these will be allowed, and even encouraged. But often in explorations, you will miss the point of the exercise if your vectors are too trivial.  Please, do not ask on Piazza if your vectors are general enough to get full credit. The explorations are assignments which require you to make a judgement call , to explore a particular concept of the course and not to come up with the simplest example which satisfies the minimum requirements of the assignment.   "
+  "body": "   Now, choose two random vectors in which are not multiples of each other. Can every vector be expressed as a linear combination of ? Justify your answer.      Choose a random third vector that can be expressed as a linear combination of . Find appropriate weights such that        Bonus (Not graded) : Sketch the vectors in and show, geometrically, how the linear combination from (b) makes sense.    "
 }
 ]
 
