@@ -25,8 +25,8 @@
     <!-- <xi:include href="./frontmatter.ptx" /> -->
     
     <xi:include href="./introduction.ptx" />
-    <!-- <xi:include href="./exploration-1.ptx" />
-    <xi:include href="./exploration-2.ptx" />
+    <xi:include href="./exploration-1.ptx" />
+    <!-- <xi:include href="./exploration-2.ptx" />
     <xi:include href="./exploration-3.ptx" />
     <xi:include href="./exploration-4.ptx" />
     <xi:include href="./exploration-5.ptx" />
