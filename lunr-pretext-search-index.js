@@ -71,6 +71,33 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  For statements (10) and (11):   Identify the propositions.  Both statements are false. Provide a counterexample for one of them and explain why the counterexample works.    Hint: For (10), choose and such that is consistent but lacks a pivot in every row.   Hint: For (11), choose without a pivot in every column and vectors such that .   "
+},
+{
+  "id": "exploration-3",
+  "level": "1",
+  "url": "exploration-3.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 3, due June 14",
+  "body": " Exploration 3, due June 14   Exploration 3, due June 14   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  Consider the following problems from previous Exam 1 midterms.    1(a)viii T\/F (Fall ’25):  If and , then .    1(a)vi T\/F (Spring ’25):  If and are both solutions to an inhomogeneous system , then is also a solution to .    1(a)v T\/F (Spring ’23):  If is size and none of the rows of consist entirely of zeros, then has 3 pivots.    1(a)v T\/F (Fall ’23):  If is a linearly independent set, then .    1(a)i T\/F – modified (Spring ’25):  If the system is inconsistent, then there is not a pivot in the last row of the REF of the coefficient matrix .    1(a)ii T\/F (Spring ’24):  If the linear transformation is one‑to‑one, then has a unique solution.      For each of the true\/false problems above, complete tasks (i)–(ii) below.   Write the problem and provide the answer.    Do one example that illustrates whether the statement could be true or must be false. The example may be:   an example showing the statement can be satisfied, or  a counterexample showing the statement must be false.   For instance, for problem (1) you would choose a matrix and vectors so that and both satisfy , then check whether also satisfies the equation.  Say explicitly whether your example is a counterexample or not. Note: Your example does not need to be a counterexample even if the original statement is false—any example is acceptable.          Create New Problems    Create two new problems (7) and (8). Each new problem should be a modification of one of the six original problems. For example, you may:   change the premise or conclusion of an implication,  switch “onto” with “one‑to‑one”,  change “linearly independent” to “linearly dependent”,  swap the order of the implication, or negate the if‑part or then‑part.   After writing each new problem, repeat tasks (i)–(ii). Clearly state which original problem you modified.      "
+},
+{
+  "id": "exam1-logic-problems-2-4",
+  "level": "2",
+  "url": "exploration-3.html#exam1-logic-problems-2-4",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  For each of the true\/false problems above, complete tasks (i)–(ii) below.   Write the problem and provide the answer.    Do one example that illustrates whether the statement could be true or must be false. The example may be:   an example showing the statement can be satisfied, or  a counterexample showing the statement must be false.   For instance, for problem (1) you would choose a matrix and vectors so that and both satisfy , then check whether also satisfies the equation.  Say explicitly whether your example is a counterexample or not. Note: Your example does not need to be a counterexample even if the original statement is false—any example is acceptable.      "
+},
+{
+  "id": "exam1-logic-problems-3-2",
+  "level": "2",
+  "url": "exploration-3.html#exam1-logic-problems-3-2",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  Create two new problems (7) and (8). Each new problem should be a modification of one of the six original problems. For example, you may:   change the premise or conclusion of an implication,  switch “onto” with “one‑to‑one”,  change “linearly independent” to “linearly dependent”,  swap the order of the implication, or negate the if‑part or then‑part.   After writing each new problem, repeat tasks (i)–(ii). Clearly state which original problem you modified.   "
 }
 ]
 
