@@ -98,6 +98,69 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Create two new problems (7) and (8). Each new problem should be a modification of one of the six original problems. For example, you may:   change the premise or conclusion of an implication,  switch “onto” with “one‑to‑one”,  change “linearly independent” to “linearly dependent”,  swap the order of the implication, or negate the if‑part or then‑part.   After writing each new problem, repeat tasks (i)–(ii). Clearly state which original problem you modified.   "
+},
+{
+  "id": "exploration-4",
+  "level": "1",
+  "url": "exploration-4.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 4, due June 21",
+  "body": " Exploration 4, due June 21   Exploration 4, due June 21   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we will investigate the relationship between Linear Transformations and the determinant.   Sketch a Parallelogram   Sketch a parallelogram somewhere in such that none of its vertices lie at the origin. Label the vertices and record the coordinates of each point. Label the parallelogram for shape .     Compute the area of   Showing your work, compute by identifying a pair of vectors that determine the parallelogram. Go back to your sketch in and label the vectors and .     Apply a Linear Transformation   Choose a (somewhat random ) linear transformation which can be anything but must satisfy:  The standard matrix of is not diagonal .  The transformation is invertible (one‑to‑one and onto).  The transformation is not a single rotation or a single reflection. However, a rotation followed by a reflection is permitted.        Continued   Sketch the Parallelogram   Transform your shape from using your transformation from . That is, sketch the image of under in . Make a new sketch for this part and label the images and give the new coordinates for all four points.     Compute the area of   Showing your work, compute using the same method as in by finding the images of and under . Go back to your sketch in and label the vectors and .     Determinant of   Compute where is the standard matrix of , and compare the areas and with the value of . Write a general formula whihc relates these three quantities.      "
+},
+{
+  "id": "exp5-step1",
+  "level": "2",
+  "url": "exploration-4.html#exp5-step1",
+  "type": "Problem",
+  "number": "1",
+  "title": "Sketch a Parallelogram <span class=\"process-math\">\\(S\\)<\/span>.",
+  "body": " Sketch a Parallelogram   Sketch a parallelogram somewhere in such that none of its vertices lie at the origin. Label the vertices and record the coordinates of each point. Label the parallelogram for shape .   "
+},
+{
+  "id": "exp5-step2",
+  "level": "2",
+  "url": "exploration-4.html#exp5-step2",
+  "type": "Problem",
+  "number": "2",
+  "title": "Compute the area of <span class=\"process-math\">\\(S\\)<\/span>.",
+  "body": " Compute the area of   Showing your work, compute by identifying a pair of vectors that determine the parallelogram. Go back to your sketch in and label the vectors and .   "
+},
+{
+  "id": "exp5-step3",
+  "level": "2",
+  "url": "exploration-4.html#exp5-step3",
+  "type": "Problem",
+  "number": "3",
+  "title": "Apply a Linear Transformation.",
+  "body": " Apply a Linear Transformation   Choose a (somewhat random ) linear transformation which can be anything but must satisfy:  The standard matrix of is not diagonal .  The transformation is invertible (one‑to‑one and onto).  The transformation is not a single rotation or a single reflection. However, a rotation followed by a reflection is permitted.     "
+},
+{
+  "id": "exp5-step4",
+  "level": "2",
+  "url": "exploration-4.html#exp5-step4",
+  "type": "Problem",
+  "number": "4",
+  "title": "Sketch the Parallelogram <span class=\"process-math\">\\(T(S)\\)<\/span>.",
+  "body": " Sketch the Parallelogram   Transform your shape from using your transformation from . That is, sketch the image of under in . Make a new sketch for this part and label the images and give the new coordinates for all four points.   "
+},
+{
+  "id": "exp5-step5",
+  "level": "2",
+  "url": "exploration-4.html#exp5-step5",
+  "type": "Problem",
+  "number": "5",
+  "title": "Compute the area of <span class=\"process-math\">\\(T(S)\\)<\/span>.",
+  "body": " Compute the area of   Showing your work, compute using the same method as in by finding the images of and under . Go back to your sketch in and label the vectors and .   "
+},
+{
+  "id": "exp5-step6",
+  "level": "2",
+  "url": "exploration-4.html#exp5-step6",
+  "type": "Problem",
+  "number": "6",
+  "title": "Determinant of <span class=\"process-math\">\\(A\\)<\/span>.",
+  "body": " Determinant of   Compute where is the standard matrix of , and compare the areas and with the value of . Write a general formula whihc relates these three quantities.   "
 }
 ]
 
