@@ -29,14 +29,7 @@
     <xi:include href="./Summer-Exp/exploration-2.ptx" />
     <xi:include href="./Summer-Exp/exploration-3.ptx" />
     <xi:include href="./Summer-Exp/exploration-4.ptx" />
-    <!-- <xi:include href="./exploration-5.ptx" />
-    <xi:include href="./exploration-6.ptx" />
-    <xi:include href="./exploration-7.ptx" />
-    <xi:include href="./exploration-8.ptx" />
-    <xi:include href="./exploration-9.ptx" />
-    <xi:include href="./exploration-10.ptx" />
-    <xi:include href="./exploration-11.ptx" />
-    <xi:include href="./exploration-12.ptx" /> -->
+    <xi:include href="./Summer-Exp/exploration-5.ptx" />
   </article>
 
 </pretext>
