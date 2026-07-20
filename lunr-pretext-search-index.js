@@ -316,9 +316,9 @@ var ptx_lunr_docs = [
   "body": "  Let and . We will repeat similar steps to .     Determine the vector .      Represent as a linear combination of the columns of .      What is different about Problem 2(b) compared to Problem 1(c) .      Set up and solve the normal equations for to find the least square solution. Compare your result to Problem 2(b) .      Fill in the blanks: If the columns of are linearly dependent , then there are least squares solutions. This does not mean that there are vectors in which are equally close to , but instead that there are vectors in which map to .    "
 },
 {
-  "id": "exploration-10",
+  "id": "exploration-8",
   "level": "1",
-  "url": "exploration-10.html",
+  "url": "exploration-8.html",
   "type": "Section",
   "number": "",
   "title": "Exploration 8, due July 19",
@@ -327,29 +327,74 @@ var ptx_lunr_docs = [
 {
   "id": "ex-10-a",
   "level": "2",
-  "url": "exploration-10.html#ex-10-a",
+  "url": "exploration-8.html#ex-10-a",
   "type": "Problem",
   "number": "1",
   "title": "",
   "body": "  For each of the curves given in (a) - (d), do the following:   Find the values of and that yeild the regression curve which best fits the points . For full points, you need to show how you setup each system and how you formed the augmented matrix for the normal equations. You are not required to solve the systems by hand and can make use of online calculators.    Determine how accurately the curve predicts the indicated points. For example, if the curve is , then its accuracy would be the distance the vector of target -values is from the vector of predicted -values. To calculate this, find the magnitude of .                                  "
 },
 {
-  "id": "exploration-10-2-5",
+  "id": "exploration-8-2-5",
   "level": "2",
-  "url": "exploration-10.html#exploration-10-2-5",
+  "url": "exploration-8.html#exploration-8-2-5",
   "type": "Problem",
   "number": "2",
   "title": "",
   "body": "  Which of the four curves fits the data the best? Why?   "
 },
 {
-  "id": "exploration-10-2-6",
+  "id": "exploration-8-2-6",
   "level": "2",
-  "url": "exploration-10.html#exploration-10-2-6",
+  "url": "exploration-8.html#exploration-8-2-6",
   "type": "Problem",
   "number": "3",
   "title": "",
   "body": "  Create your own regression polynomial with two parameters and repeat Steps (1) and (2) from . Is your curve a better fit than the given curves?   "
+},
+{
+  "id": "exploration-9",
+  "level": "1",
+  "url": "exploration-9.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 9, due July 26",
+  "body": " Exploration 9, due July 26   Exploration 9, due July 26  Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we will investigate how the SVD of a matrix can shed light on how multiplication by the matrix transforms the domain geometrically.  For each problem below, let be the linear transformation defined by , where .    Compute the following images of . For each, attempt to describe how acted on the input vector geometrically to produce the output vector. Think about scaling and rotation. It may be helpful to graph the input and output vectors in Desmos 3D or some other 3D graphing utility.                           Using the examples in , can you describe how is acting on an arbitrary vector in ?      Compute the SVD of using the algorithm from class.      Let be the SVD of found in . Note that a rotation matrix along one of the standard planes in has the following form: We will use the above fact, along with the SVD of , to describe how acts on geometrically.     How does act on geometrically?      How does act on geometrically?      How does act on geometrically?      Tying it all together, how does act on geometrically?      "
+},
+{
+  "id": "ex12-part1",
+  "level": "2",
+  "url": "exploration-9.html#ex12-part1",
+  "type": "Problem",
+  "number": "1",
+  "title": "",
+  "body": "  Compute the following images of . For each, attempt to describe how acted on the input vector geometrically to produce the output vector. Think about scaling and rotation. It may be helpful to graph the input and output vectors in Desmos 3D or some other 3D graphing utility.                        "
+},
+{
+  "id": "exploration-9-2-6",
+  "level": "2",
+  "url": "exploration-9.html#exploration-9-2-6",
+  "type": "Problem",
+  "number": "2",
+  "title": "",
+  "body": "  Using the examples in , can you describe how is acting on an arbitrary vector in ?   "
+},
+{
+  "id": "ex12-part3",
+  "level": "2",
+  "url": "exploration-9.html#ex12-part3",
+  "type": "Problem",
+  "number": "3",
+  "title": "",
+  "body": "  Compute the SVD of using the algorithm from class.   "
+},
+{
+  "id": "ex12-part4",
+  "level": "2",
+  "url": "exploration-9.html#ex12-part4",
+  "type": "Problem",
+  "number": "4",
+  "title": "",
+  "body": "  Let be the SVD of found in . Note that a rotation matrix along one of the standard planes in has the following form: We will use the above fact, along with the SVD of , to describe how acts on geometrically.     How does act on geometrically?      How does act on geometrically?      How does act on geometrically?      Tying it all together, how does act on geometrically?    "
 }
 ]
 
