@@ -3,7 +3,7 @@
 
   <docinfo>
 
-    <document-id>Warnock_MATH1554CourseNotes</document-id>
+    <document-id>Warnock_MATH1554Explorations</document-id>
 
     <macros>
       \newcommand{\foo}{b^{ar}}
@@ -20,20 +20,11 @@
   </docinfo>
 
   <article xml:id="explorations">
-    <title>MATH 1554 Explorations - Summer 2026</title>
+    <title>MATH 1554 Explorations - Fall 2026</title>
       
     <!-- <xi:include href="./frontmatter.ptx" /> -->
     
     <xi:include href="./introduction.ptx" />
-    <xi:include href="./Summer-Exp/exploration-1.ptx" />
-    <xi:include href="./Summer-Exp/exploration-2.ptx" />
-    <xi:include href="./Summer-Exp/exploration-3.ptx" />
-    <xi:include href="./Summer-Exp/exploration-4.ptx" />
-    <xi:include href="./Summer-Exp/exploration-5.ptx" />
-    <xi:include href="./Summer-Exp/exploration-6.ptx" />
-    <xi:include href="./Summer-Exp/exploration-7.ptx" />
-    <xi:include href="./Summer-Exp/exploration-8.ptx" />
-    <xi:include href="./Summer-Exp/exploration-9.ptx" />
   </article>
 
 </pretext>
