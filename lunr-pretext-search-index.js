@@ -98,6 +98,78 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Create two new problems (7) and (8). Each new problem should be a modification of one of the six original problems. For example, you may:   change the premise or conclusion of an implication,  switch “onto” with “one‑to‑one”,  change “linearly independent” to “linearly dependent”,  swap the order of the implication, or negate the if‑part or then‑part.   After writing each new problem, repeat tasks (i)–(ii). Clearly state which original problem you modified.   "
+},
+{
+  "id": "exploration-4",
+  "level": "1",
+  "url": "exploration-4.html",
+  "type": "Section",
+  "number": "",
+  "title": "Exploration 4, due October 4",
+  "body": " Exploration 4, due October 4   Exploration 4, due October 4   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we will walkthrough showing is a subspace.   Create   Pick a random  matrix . Choose entries not all positive, avoid too many zeros, and do not choose an that is already in REF.  Let and be the first and second columns of , respectively. Compute . If , start over with a new . Let .     Show contains zero vector   Show that ; that is, show that is a linear combination of and .      Step 3 and Question 1   Show is closed under vector addition   Choose two vectors by selecting random scalars and forming . Do this twice with different weights to obtain and . Let .   Verify that by showing that the matrix equation has a solution. Check by expressing as a linear combination of .     Fill in the blanks  When you write as a linear combination of , then the weights are the from the linear combination of writing as linear combinations of .      Step 4 and Conclusion   Show is closed under scalar mutiplication   Let be either or from . Choose a random scalar and check that is in the column space of by showing that has a solution. Then confirm by expressing as a linear combination of and .     Fill in the blanks  When you write as a linear combination of , then the weights are the from the linear combination of writing as a linear combination of .    Conclusion   Try to convince yourself that for any choice of , the set always contains and is always closed under vector addition and scalar multiplication. Provide one or two sentences justifying this fact.      "
+},
+{
+  "id": "step1",
+  "level": "2",
+  "url": "exploration-4.html#step1",
+  "type": "Problem",
+  "number": "1",
+  "title": "Create <span class=\"process-math\">\\(\\mathcal{H}\\)<\/span>.",
+  "body": " Create   Pick a random  matrix . Choose entries not all positive, avoid too many zeros, and do not choose an that is already in REF.  Let and be the first and second columns of , respectively. Compute . If , start over with a new . Let .   "
+},
+{
+  "id": "step2",
+  "level": "2",
+  "url": "exploration-4.html#step2",
+  "type": "Problem",
+  "number": "2",
+  "title": "Show <span class=\"process-math\">\\(\\mathcal{H}\\)<\/span> contains zero vector.",
+  "body": " Show contains zero vector   Show that ; that is, show that is a linear combination of and .   "
+},
+{
+  "id": "step3",
+  "level": "2",
+  "url": "exploration-4.html#step3",
+  "type": "Problem",
+  "number": "3",
+  "title": "Show <span class=\"process-math\">\\(\\mathcal{H}\\)<\/span> is closed under vector addition.",
+  "body": " Show is closed under vector addition   Choose two vectors by selecting random scalars and forming . Do this twice with different weights to obtain and . Let .   Verify that by showing that the matrix equation has a solution. Check by expressing as a linear combination of .   "
+},
+{
+  "id": "subspace-example-3-3",
+  "level": "2",
+  "url": "exploration-4.html#subspace-example-3-3",
+  "type": "Question",
+  "number": "4",
+  "title": "Fill in the blanks.",
+  "body": " Fill in the blanks  When you write as a linear combination of , then the weights are the from the linear combination of writing as linear combinations of .  "
+},
+{
+  "id": "step4",
+  "level": "2",
+  "url": "exploration-4.html#step4",
+  "type": "Problem",
+  "number": "5",
+  "title": "Show <span class=\"process-math\">\\(\\mathcal{H}\\)<\/span> is closed under scalar mutiplication.",
+  "body": " Show is closed under scalar mutiplication   Let be either or from . Choose a random scalar and check that is in the column space of by showing that has a solution. Then confirm by expressing as a linear combination of and .   "
+},
+{
+  "id": "subspace-example-4-3",
+  "level": "2",
+  "url": "exploration-4.html#subspace-example-4-3",
+  "type": "Question",
+  "number": "6",
+  "title": "Fill in the blanks.",
+  "body": " Fill in the blanks  When you write as a linear combination of , then the weights are the from the linear combination of writing as a linear combination of .  "
+},
+{
+  "id": "conclusion",
+  "level": "2",
+  "url": "exploration-4.html#conclusion",
+  "type": "Problem",
+  "number": "7",
+  "title": "Conclusion.",
+  "body": " Conclusion   Try to convince yourself that for any choice of , the set always contains and is always closed under vector addition and scalar multiplication. Provide one or two sentences justifying this fact.   "
 }
 ]
 
