@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-12">
-  <title>Exploration 12, due April 26</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-12">
     <title>Exploration 12, due April 26</title>
 
     <p>
@@ -15,7 +13,7 @@
             For each problem below, let <m>T: \mathbb{R}^3 \rightarrow \mathbb{R}^3</m> be the linear transformation defined by <m>T(\vec x) = A\vec x</m>, where <md>A = \begin{bmatrix} 2\sqrt{3} \amp -1 \amp -1 \\ 2 \amp \sqrt{3} \amp \sqrt{3} \\ 0 \amp -1 \amp 1 \end{bmatrix}</md>.
     </p>
 
-    <problem xml:id="ex12-part1">
+    <exercise xml:id="ex12-part1">
       <introduction>
          <p>
             Compute the following images of <m>T</m>. For each, attempt to describe how <m>A</m> acted on the input vector geometrically to produce the output vector. Think about scaling and rotation. It may be helpful to graph the input and output vectors in Desmos 3D or some other 3D graphing utility.
@@ -42,25 +40,25 @@
            </p>
         </statement> 
     </task>
-    </problem>
+    </exercise>
 
-    <problem workspace="true">
+    <exercise workspace="true">
         <statement>
             <p>
                 Using the examples in <xref ref="ex12-part1"/>, can you describe how <m>A</m> is acting on an arbitrary vector in <m>\mathbb{R}^3</m>?
             </p>
         </statement>
-    </problem>
+    </exercise>
 
-    <problem workspace="8in" xml:id="ex12-part3">
+    <exercise workspace="8in" xml:id="ex12-part3">
         <statement>
             <p>
                 Compute the SVD of <m>A</m> using the algorithm from class.
             </p>
         </statement>
-    </problem>
+    </exercise>
 
-    <problem xml:id="ex12-part4" workspace="2in">
+    <exercise xml:id="ex12-part4" workspace="2in">
         <introduction>
             <p>
                 Let <m>A = U\Sigma V^T</m> be the SVD of <m>A</m> found in <xref ref="ex12-part3"/>. Note that a rotation matrix along one of the standard planes in <m>\mathbb{R}^3</m> has the following form: <md>
@@ -99,9 +97,7 @@
                 </p>
             </statement>
         </task>
-    </problem>
+    </exercise>
 
 
-</handout>
-
-</section>
+</worksheet>

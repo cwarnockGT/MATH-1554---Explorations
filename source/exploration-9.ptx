@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-9">
-  <title>Exploration 9, due April 5</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-9">
     <title>Exploration 9, due April 5</title>
 
     <p>
@@ -12,7 +10,7 @@
         In this exploration, we will investigate least squares solutions and orthogonal projections. 
     </p>
 
-    <problem xml:id="ex-9-pr-1">
+    <exercise xml:id="ex-9-pr-1">
         <introduction>
             <p>
                 Let <m> A = \begin{bmatrix} 1 \amp 4 \\ -1 \amp 2 \\ 1 \amp 4 \end{bmatrix}</m> and <m>\vec b = \begin{bmatrix} 3 \\ -1 \\ 5 \end{bmatrix}</m>.
@@ -53,10 +51,10 @@
                 </p>
             </statement>
         </task>
-    </problem>
+    </exercise>
 
 
-    <problem>
+    <exercise>
         <introduction>
             <p>
                 Let <m> A = \begin{bmatrix} 1 \amp 4 \\ -1 \amp -4 \\ 1 \amp 4 \end{bmatrix}</m> and <m>\vec b = \begin{bmatrix} 3 \\ -1 \\ 5 \end{bmatrix}</m>. We will repeat similar steps to <xref ref="ex-9-pr-1"/>.
@@ -97,7 +95,6 @@
                 </p>
             </statement>
         </task>
-    </problem>
+    </exercise>
 
-</handout>
-</section>
+</worksheet>

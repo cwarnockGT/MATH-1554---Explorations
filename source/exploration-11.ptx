@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-11">
-  <title>Exploration 11, due April 19</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-11">
     <title>Exploration 11, due April 19</title>
 
     <p>
         Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
     </p>
 
-    <problem xml:id="ex11-part1">
+    <exercise xml:id="ex11-part1">
       <introduction>
         <p>
           Pick two random vectors <m>\vec u,\vec v\in\mathbb{R}^3</m> with no zero entries
@@ -37,10 +35,10 @@
             </p>
         </statement>
     </task>
-    </problem>
+    </exercise>
 
 
-    <problem xml:id="ex11-part2">
+    <exercise xml:id="ex11-part2">
       <introduction>
         <p>
           Let
@@ -96,10 +94,10 @@
                 </p>
             </statement>
         </task>
-    </problem>
+    </exercise>
 
 
-    <problem xml:id="ex11-part3">
+    <exercise xml:id="ex11-part3">
       <introduction>
         <p>
           Let <m>A</m> be the same matrix in <xref ref="ex11-part2"/>.
@@ -133,8 +131,6 @@
                 </p>
             </statement>
         </task>
-    </problem>
+    </exercise>
 
-</handout>
-
-</section>
+</worksheet>

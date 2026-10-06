@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-7">
-  <title>Exploration 7, due March 15</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-7">
     <title>Exploration 7, due March 15</title>
 
     <p>
@@ -12,7 +10,7 @@
       This exploration contains three separate problems.
     </p>
 
-    <problem xml:id="wk9-part1" workspace="1.5in">
+    <exercise xml:id="wk9-part1" workspace="1.5in">
       <statement>
         <p>
           Find a <m>2\times 2</m> matrix <m>A</m> <em>with real entries</em> that has
@@ -21,9 +19,9 @@
           and explaining why it has no real roots.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
-    <problem>
+    <exercise>
         <introduction>
             <p>
                 For each of the following matrices <m>A</m> and linear transformations <m>T_A(\vec x) = A\vec x</m>, do the following:
@@ -100,10 +98,10 @@
                 </p>
             </statement>
         </task>
-    </problem>
+    </exercise>
 
 
-    <problem xml:id="wk9-rowops" workspace="true">
+    <exercise xml:id="wk9-rowops" workspace="true">
       <statement>
         <p>
           Pick any two transformations from the <m>\mathbb{R}^2</m> list above (except the matrix in <xref ref="ex7-a"/>).
@@ -128,8 +126,6 @@
         </p>
 
       </statement>
-    </problem>
+    </exercise>
 
-</handout>
-
-</section>
+</worksheet>

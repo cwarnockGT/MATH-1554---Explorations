@@ -1,0 +1,17 @@
+﻿.exercise-like:not(.task, .knowl__content, .born-hidden-knowl) {
+  padding-left: 10px;
+  border-left: 2px dotted var(--block-border-color);
+}
+.exercise-like:not(.task, .knowl__content, .born-hidden-knowl) > .heading:first-child {
+  color: var(--block-head-color);
+}
+.exercise-like:not(.task, .knowl__content, .born-hidden-knowl)::after {
+  content: "";
+  border-bottom: 2px dotted var(--block-border-color);
+  display: block;
+  margin-right: auto;
+  margin-left: -10px;
+  padding-top: 10px;
+  width: 1.5em;
+}
+

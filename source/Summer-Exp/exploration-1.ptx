@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-1">
-  <title>Exploration 1, due May 31</title>
-<handout xml:id="exp-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-1">
     <title>Exploration 1, due May 31</title>
       <p>
         Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
       </p>
-    <problem> 
+    <exercise> 
         <task workspace="0.5in">
           <statement>
             <p>
@@ -29,8 +27,8 @@
             </p>
           </statement>
         </task>
-    </problem>
-    <problem>
+    </exercise>
+    <exercise>
       <task workspace="1in">
         <statement>
           <p>
@@ -52,9 +50,8 @@
             </p>
           </statement>
       </task>
-    </problem>
+    </exercise>
 
   
   
-</handout>
-</section>
+</worksheet>

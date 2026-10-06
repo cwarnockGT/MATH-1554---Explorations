@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-3">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-3">
   <title>Exploration 3, due September 27</title>
-<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exam1-logic-problems">
-    <title>Exploration 3, due September 27</title>
   <page>
     <p>
         Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
@@ -51,7 +49,8 @@
       </li>
     </ol>
 
-    <problem>
+    <exercise>
+      <title>Problem 1</title>
         <statement>
             <p>
       For each of the true/false problems above, complete tasks (i)–(ii) below.
@@ -85,14 +84,14 @@
     </ol>
     </p>
     </statement>
-</problem>
+  </exercise>
 
   </page>
 
   <!-- ================= PAGE 4: New Problems 7–8 ================= -->
   <page>
     <title>Create New Problems</title>
-    <problem>
+    <exercise>
     <statement>
         <p>
       Create two new problems (7) and (8). Each new problem should be a
@@ -112,9 +111,8 @@
       original problem you modified.
     </p>
 </statement>
-</problem>
+</exercise>
 
   </page>
 
 </worksheet>
-</section>

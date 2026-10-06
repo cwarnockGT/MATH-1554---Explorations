@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-5">
-  <title>Exploration 5, due October 11</title>
-<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="transformation-example">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-5">
     <title>Exploration 5, due October 11</title>
   <page>
     <p>
@@ -53,5 +51,4 @@
     </ol>
 
     </page>
-  </worksheet>
-</section>
+</worksheet>

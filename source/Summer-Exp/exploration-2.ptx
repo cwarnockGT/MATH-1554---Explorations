@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-2">
-  <title>Exploration 2, due June 7</title>
-<handout xml:id="exp-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-2">
     <title>Exploration 2, due June 7</title>
     <page>
       <p>
@@ -46,7 +44,7 @@
       <m>\vec b=\begin{bmatrix} 1\\ 2\\ 3 \end{bmatrix}</m>.
     </p>
 
-    <problem xml:id="ex2-q1" workspace="true">
+    <exercise xml:id="ex2-q1" workspace="true">
       <statement>
         <p>
           Pick <em>one</em> of the statements (2)–(5) above.
@@ -65,7 +63,7 @@
       </statement>
 
       <p><vspace amount="2.5in"/></p>
-    </problem>
+    </exercise>
   </page>
 
   <!-- ================= PAGE 4 ================= -->
@@ -129,7 +127,7 @@
         <m>A(\vec x+\vec y)=\begin{bmatrix} 6\\ 6 \end{bmatrix}\neq\vec b</m>.
       </p>
  
-    <problem xml:id="ex2-q2" workspace="true">
+    <exercise xml:id="ex2-q2" workspace="true">
       <statement>
         <p>
           Choose one <em>true</em> and one <em>false</em> implication
@@ -149,7 +147,7 @@
         </p>
       </statement>
 
-    </problem>
+    </exercise>
   </page>
 
   <!-- ================= PAGE 7 ================= -->
@@ -183,7 +181,7 @@
 
     <title>Question Q3</title>
 
-    <problem xml:id="ex2-q3" workspace="true">
+    <exercise xml:id="ex2-q3" workspace="true">
       <statement>
         <p>
           For statements (10) and (11):
@@ -204,8 +202,7 @@
           <m>T(\vec x_1)\neq T(\vec x_2)</m>.
         </p>
         </statement>
-      </problem>
+      </exercise>
   </page>
 
-</handout>
-</section>
+</worksheet>

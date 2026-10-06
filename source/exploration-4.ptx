@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-4">
-  <title>Exploration 4, due October 4</title>
-<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subspace-example">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-4">
     <title>Exploration 4, due October 4</title>
   <page>
     <p>
@@ -12,7 +10,7 @@
       In this exploration, we will walkthrough showing <m>\mathcal{H}=\mathrm{span}\{\vec v_1,\vec v_2\}</m> is a subspace.
     </p>
 
-    <problem xml:id="step1" workspace="1in">
+    <exercise xml:id="step1" workspace="1in">
       <title>Create <m>\mathcal{H}</m></title>     
       <statement>
         <p>
@@ -23,16 +21,16 @@
           respectively. Compute <m>\mathrm{rank}(A)</m>. If <m>\mathrm{rank}(A)\neq 2</m>, start over with a new <m>A</m>. Let <m>\mathcal{H} = \textrm{Col}(A) = \textrm{Span}\left\{\vec v_1, \vec v_2\right\}</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
-    <problem xml:id="step2" workspace="1in">
+    <exercise xml:id="step2" workspace="1in">
       <title>Show <m>\mathcal{H}</m> contains zero vector</title>
       <statement>
         <p>
           Show that <m>\vec 0 \in \mathcal{H}</m>; that is, show that <m>\vec 0</m> is a linear combination of <m>\vec v_1</m> and <m>\vec v_2</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
   </page>
 
   <page>
@@ -40,7 +38,7 @@
     
     
 
-    <problem xml:id="step3" workspace="3in">
+    <exercise xml:id="step3" workspace="3in">
       <title>Show <m>\mathcal{H}</m> is closed under vector addition</title>
       <statement>
         <p>
@@ -52,32 +50,32 @@
           <strong>Verify</strong> that <m>\vec z \in \mathcal{H}</m> by showing that the matrix equation <m>A\vec x = \vec z</m> has a solution. Check by expressing <m>\vec z</m> as a linear combination of <m>\vec v_1,\vec v_2</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
-    <question>
+    <exercise>
       <title>Fill in the blanks</title>
       <p>
         When you write <m>\vec z</m> as a linear combination of <m>\vec v_1,\vec v_2</m>, then the weights are the
         <m>\framebox[4in]{ }</m> from the linear combination of writing
         <m>\framebox[2in]{ }</m> as linear combinations of <m>\vec v_1,\vec v_2</m>.
       </p>
-    </question>
+    </exercise>
   </page>
 
   <!-- ================= PAGE 4 ================= -->
   <page>
     <title>Step 4 and Conclusion</title>
 
-    <problem xml:id="step4" workspace="4in">
+    <exercise xml:id="step4" workspace="4in">
       <title>Show <m>\mathcal{H}</m> is closed under scalar mutiplication</title>
       <statement>
         <p>
           Let <m>\vec w</m> be either <m>\vec w_1</m> or <m>\vec w_2</m> from <xref ref="step3"/>. Choose a <xref ref="random" text="custom">random</xref> scalar <m>c</m> and check that <m>c\vec w</m> is in the column space of <m>A</m> by showing that <m>A\vec x = c\vec w</m> has a solution. Then confirm by expressing <m>c\vec w</m> as a linear combination of <m>\vec v_1</m> and <m>\vec v_2</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
-    <question workspace="0.5in">
+    <exercise workspace="0.5in">
       <title>Fill in the blanks</title>
       
       
@@ -86,10 +84,10 @@
         <m>\framebox[4in]{ }</m> from the linear combination of writing
         <m>\framebox[2in]{ }</m> as a linear combination of <m>\vec v_1,\vec v_2</m>.
       </p>
-    </question>
+    </exercise>
 
 
-    <problem xml:id="conclusion" workspace="1.5in">
+    <exercise xml:id="conclusion" workspace="1.5in">
       <title>Conclusion</title>
       <statement>
         <p>
@@ -97,8 +95,7 @@
           <m>\mathcal{H}=\mathrm{span}\{\vec v_1,\vec v_2\}</m> always contains <m>\vec 0</m> and is always closed under vector addition and scalar multiplication. Provide one or two sentences justifying this fact.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
     </page>
-  </worksheet>
-</section>
+</worksheet>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-1">
-  <title>Exploration 1, due September 13</title>
-<worksheet xml:id="exp-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="exploration-1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exploration 1, due September 13</title>
+    <page>
       <p>
         Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
       </p>
-    <problem> 
+    <exercise> 
+      <title>Vectors in <m>\mathbb{R}^2</m></title>
         <task workspace="0.5in">
           <statement>
             <p>
@@ -29,8 +29,11 @@
             </p>
           </statement>
         </task>
-    </problem>
-    <problem>
+    </exercise>
+  </page>
+  <page>
+    <exercise>
+      <title>Vectors in <m>\mathbb{R}^3</m></title>
       <task workspace="1in">
         <statement>
           <p>
@@ -52,9 +55,8 @@
             </p>
           </statement>
       </task>
-    </problem>
-
+    </exercise>
+  </page>
   
   
-  </worksheet>
-</section>
+</worksheet>

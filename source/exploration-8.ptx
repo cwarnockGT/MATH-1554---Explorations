@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-8">
-  <title>Exploration 8, due March 22</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-8">
     <title>Exploration 8, due March 22</title>
     <page>
 
@@ -15,7 +13,7 @@
       extend naturally to more abstract vector spaces such as spaces of polynomials.
     </p>
 
-    <problem xml:id="ex-8-part-a">
+    <exercise xml:id="ex-8-part-a">
         <introduction>
             <p>
             Let <m>\mathbb{P}_n</m> denote the <m>(n+1)</m>-dimensional vector space of polynomials of
@@ -48,7 +46,7 @@
                 </p>
             </statement>
         </task>
-    </problem>
+    </exercise>
 
     <p>
         Note: <m>T(3x-7)=3T(x)-7T(1)</m>, as expected from linearity.
@@ -62,7 +60,7 @@
   <page>
     <title>Coordinate Vectors in Basis <m>\mathcal{B}=\{-x+1,\,2x+1\}</m></title>
 
-    <problem xml:id="ex-8-part-b">
+    <exercise xml:id="ex-8-part-b">
         <introduction>
             <p>
             Just as in <m>\mathbb{R}^n</m>, we may choose a basis for <m>\mathbb{P}_1</m>.
@@ -85,17 +83,17 @@
             </statement>
         </task>
         
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
 
-    <problem xml:id="ex-8-part-c">
+    <exercise xml:id="ex-8-part-c">
         <statement workspace="1in">
             <p>
                 The <m>\mathcal{B}</m>-matrix of <m>T</m> is given by <me>T_\mathcal{B} = \begin{bmatrix} \left[T(-x+1)\right]_{\mathcal{B}} \amp \left[T(2x+1)\right]_{\mathcal{B}} \end{bmatrix}</me>. Determine <m>T_\mathcal{B}</m> and find its eigenvalues. <em>Hint: <m>T_\mathcal{B}</m> should be a <m>2 \times 2</m> upper triangular matrix.</em>
             </p>
         </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
   </page>
@@ -104,17 +102,17 @@
   <page>
     <title>Eigenvectors of <m>T_\mathcal{B}</m></title>
 
-    <problem xml:id="ex-8-part-d" workspace="true">
+    <exercise xml:id="ex-8-part-d" workspace="true">
       <statement>
         <p>
           For each eigenvalue of <m>T_{\mathcal{B}}</m>, find at least one eigenvector.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
 
-    <problem xml:id="ex-8-part-e" workspace="true">
+    <exercise xml:id="ex-8-part-e" workspace="true">
         <statement >
             <p>
             Recall that <m>T</m> acts on polynomials in <m>\mathbb{P}_1</m>, not on vectors in <m>\mathbb{R}^2</m>.We can convert each of these eigenvectors back into its corresponding element in <m>\mathbb{P}_1</m> by remembering that these vectors are actually the <m>\mathcal{B}</m>-coordinate vector for some polynomial in <m>\mathbb{P}_1</m>. 
@@ -123,21 +121,19 @@
                 Determine the polynomials <m>p_{\lambda_1}(x)</m> and <m>p_{\lambda_2}(x)</m> which are represented by the eigenvectors found in <xref ref="ex-8-part-d"/>.
             </p>
         </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
 
 
-    <problem xml:id="ex-8-part-f" workspace="true">
+    <exercise xml:id="ex-8-part-f" workspace="true">
         <statement>
             <p>
             Verify that the polynomials found in <xref ref="ex-8-part-e"/> satisfy the eigenvalue equation; that is, verify that <me>T(p_{\lambda_1}(x)) = \lambda_1p_{\lambda_1}(x) \quad \text{and} \quad T(p_{\lambda_2}(x)) = \lambda_2p_{\lambda_2}(x)</me>.
             </p>
         </statement>
-    </problem> 
+    </exercise> 
 
   </page>
 
-</handout>
-
-</section>
+</worksheet>

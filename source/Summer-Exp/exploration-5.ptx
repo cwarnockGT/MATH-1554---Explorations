@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="exploration-5">
-  <title>Exploration 5, due June 28</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-5">
     <title>Exploration 5, due June 28</title>
   <page>
     <p>
@@ -66,24 +64,24 @@
 
 
     <!-- Statement 1 -->
-    <problem xml:id="ex6-st1" workspace="true">
+    <exercise xml:id="ex6-st1" workspace="true">
       <statement>
         <p>
           If <m>A=B</m> and <m>\lambda_1=\lambda_2</m>, then <m>\vec v_1=\vec v_2</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
 
     <!-- Statement 2 -->
-    <problem xml:id="ex6-st2" workspace="true">
+    <exercise xml:id="ex6-st2" workspace="true">
       <statement>
         <p>
           If <m>A=B</m> and <m>3\vec v_1=\vec v_2</m>, then <m>3\lambda_1=\lambda_2</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
 
@@ -94,43 +92,43 @@
   <page>
     
     <!-- Statement 3 -->
-    <problem xml:id="ex6-st3" workspace="true">
+    <exercise xml:id="ex6-st3" workspace="true">
       <statement>
         <p>
           If <m>A=B</m> and <m>\lambda_1\neq\lambda_2</m>, then
           <m>\{\vec v_1,\vec v_2\}</m> is linearly independent.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
     
     <!-- Statement 4 -->
-    <problem xml:id="ex6-st4" workspace="true">
+    <exercise xml:id="ex6-st4" workspace="true">
       <statement>
         <p>
           If <m>A=B</m> and <m>\{\vec v_1,\vec v_2\}</m> is linearly independent,
           then <m>\lambda_1\neq \lambda_2</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
 
     <!-- Statement 5 -->
-    <problem xml:id="ex6-st5" workspace="true">
+    <exercise xml:id="ex6-st5" workspace="true">
       <statement>
         <p>
           If <m>A\neq B</m> and <m>\vec v_1=\vec v_2</m>, then
           <m>\vec v_1</m> is an eigenvector of <m>AB</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
     <p><nbsp/></p>
 
     <!-- Statement 6 -->
-    <problem xml:id="ex6-st6" workspace="true">
+    <exercise xml:id="ex6-st6" workspace="true">
       <statement>
         <p>
           If <m>A=B</m> and <m>\lambda_1=\lambda_2\neq 0</m> and
@@ -139,9 +137,8 @@
           <m>2\lambda</m>.
         </p>
       </statement>
-    </problem>
+    </exercise>
 
   </page>
 
-</handout>
-</section>
+</worksheet>
