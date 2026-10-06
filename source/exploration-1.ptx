@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="exploration-1">
   <title>Exploration 1, due September 13</title>
-<handout xml:id="exp-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="exp-1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exploration 1, due September 13</title>
       <p>
         Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
@@ -56,5 +56,5 @@
 
   
   
-</handout>
+  </worksheet>
 </section>

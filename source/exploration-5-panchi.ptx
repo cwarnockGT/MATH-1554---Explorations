@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="exploration-5">
+  <title>Exploration 5, due October 11</title>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="transformation-example">
+    <title>Exploration 5, due October 11</title>
+  <page>
+    <p>
+        Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
+      </p>
+        
+    <p>
+      In this exploration, you will use the python package <url href="https://gustavo-galvao-e-silva.github.io/panchi/">panchi</url> to explore the relationship between Linear Transformations and the determinant. You will do all the work in a Jupyter Notebook, which will be provided to you and contains all instructions and code you will need to complete the exploration. The final code in the notebook will generate a PDF of your work, which you will submit to Gradescope.
+    </p>
+    <p>
+      The notebook is hosted in Google Colab, so you will not need to install any software on your computer. You will need a Google account to access the notebook, and you will need to be logged in to Google to run the notebook. If you do not have a Google account, you can create one for free at <url href="https://accounts.google.com/signup">https://accounts.google.com/signup</url>.
+    </p>
+
+    <p>
+        Follow the instructions below to begin the exploration.
+    </p>
+
+    <ol>
+      <li>
+        <p>
+          Open the <url href="https://colab.research.google.com/github/Gustavo-Galvao-e-Silva/panchi-examples/blob/main/explorations/exploration_determinants.ipynb">determinants exploration notebook</url>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Follow the setup instructions in the first cell. Begin by creating a copy in your own Google Drive (<em>File</em> &gt; <em>Save a copy on Drive</em>).
+        </p>
+      </li>
+      <li>
+        <p>
+          Open your copy and enter your name in the top cell by double-clicking it.
+        </p>
+      </li>
+      <li>
+        <p>
+          Run the setup cell once, then work through the exploration cell by cell.
+        </p>
+      </li>
+      <li>
+        <p>
+          Note that several cells contain ____ for you to fill in. You will need to replace these placeholders with your own code and/or answers.
+        </p>
+      </li>
+      <li>
+        <p>
+          When you finish, run the <em>Export to PDF</em> cell to generate a nicely formatted PDF of your work. Note that the first run may take a few minutes while the required setup is completed.
+        </p>
+      </li>
+    </ol>
+
+    </page>
+  </worksheet>
+</section>

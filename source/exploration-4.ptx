@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="exploration-4">
   <title>Exploration 4, due October 4</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subspace-example">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subspace-example">
     <title>Exploration 4, due October 4</title>
   <page>
     <p>
@@ -100,5 +100,5 @@
     </problem>
 
     </page>
-</handout>
+  </worksheet>
 </section>

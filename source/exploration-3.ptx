@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="exploration-3">
   <title>Exploration 3, due September 27</title>
-<handout xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exam1-logic-problems">
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exam1-logic-problems">
     <title>Exploration 3, due September 27</title>
   <page>
     <p>
@@ -116,5 +116,5 @@
 
   </page>
 
-</handout>
+</worksheet>
 </section>
