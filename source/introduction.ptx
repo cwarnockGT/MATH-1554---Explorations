@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<paragraphs xml:id="intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction</title>
     <p>These are the Exploration Assignments for Georgia Tech's MATH 1554 Linear Algebra used during the Fall 2026 semester. </p>
     <p>Exploration Assignments are submitted through Gradescope and are due each Sunday, by midnight, starting on Week 3. There will be a total of 12 Exploration Assignments, each worth 3 pts, for a total of 36 MQEW pts.</p>
     <p>The purpose of exploration activities is to help students gain a deeper understanding of course concepts, come to class more prepared, offer feedback to the instructors on student understanding and course activities, and help students become more aware of their level of understanding of course material. Explorations are open note, open book, you can use any online calculator or MATLAB or online resource such as Chegg, and you can talk about explorations with each other or your instructor - ask for clarification or hints on Piazza; however, your work on the exploration must be <em>entirely your own</em>, and instances of plagiarism will be reported to OSI for disciplinary action and you will receive a zero on the assignment in question. </p>
@@ -17,4 +18,4 @@
             </p>
             </statement>
     </note>
-</paragraphs>
+</section>

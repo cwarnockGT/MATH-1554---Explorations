@@ -1,4 +1,4 @@
-﻿.exercise-like:not(.task, .knowl__content, .born-hidden-knowl) {
+.exercise-like:not(.task, .knowl__content, .born-hidden-knowl) {
   padding-left: 10px;
   border-left: 2px dotted var(--block-border-color);
 }
@@ -15,3 +15,21 @@
   width: 1.5em;
 }
 
+
+
+.printout .exercise-like {
+  padding-left: 0;
+  border-left: none;
+}
+.printout .exercise-like::after {
+  content: none;
+}
+
+.exercise-like:not(.task) > .heading > .codenumber::before {
+  content: "Problem ";
+}
+
+.exercise-like:not(.task) > .heading {
+  display: block;
+  font-size: 1.1em;
+}
