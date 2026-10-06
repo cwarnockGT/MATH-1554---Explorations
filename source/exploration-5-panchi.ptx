@@ -48,6 +48,16 @@
           When you finish, run the <em>Export to PDF</em> cell to generate a nicely formatted PDF of your work. Note that the first run may take a few minutes while the required setup is completed.
         </p>
       </li>
+      <li>
+        <p>
+          Make sure that the PDF contains your name and that all of the blank spaces have been filled.
+        </p>
+      </li>
+      <li>
+        <p>
+          Upload the nicely formatted PDF to Gradescope. This is the only file you will submit for this exploration, so there is no handwritten portion.
+        </p>
+      </li>
     </ol>
 
     </page>
