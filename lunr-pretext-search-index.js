@@ -206,6 +206,69 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Exploration 5, due October 11",
   "body": " Exploration 5, due October 11   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, you will use the python package panchi to explore the relationship between Linear Transformations and the determinant. You will do all the work in a Jupyter Notebook, which will be provided to you and contains all instructions and code you will need to complete the exploration. The final code in the notebook will generate a PDF of your work, which you will submit to Gradescope.  The notebook is hosted in Google Colab, so you will not need to install any software on your computer. You will need a Google account to access the notebook, and you will need to be logged in to Google to run the notebook. If you do not have a Google account, you can create one for free at https:\/\/accounts.google.com\/signup .  Follow the instructions below to begin the exploration.    Open the determinants exploration notebook .    Follow the setup instructions in the first cell. Begin by creating a copy in your own Google Drive ( File > Save a copy on Drive ).    Open your copy and enter your name in the top cell by double-clicking it.    Run the setup cell once, then work through the exploration cell by cell.    Note that several cells contain ____ for you to fill in. You will need to replace these placeholders with your own code and\/or answers.    When you finish, run the Export to PDF cell to generate a nicely formatted PDF of your work. Note that the first run may take a few minutes while the required setup is completed.    Make sure that the PDF contains your name and that all of the blank spaces have been filled.    Upload the nicely formatted PDF to Gradescope. This is the only file you will submit for this exploration, so there is no handwritten portion.     "
+},
+{
+  "id": "exploration-6",
+  "level": "1",
+  "url": "exploration-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Exploration 6, due October 18",
+  "body": " Exploration 6, due October 18   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  For each of the six problems below, complete tasks (a)–(c).    Write the statement and indicate whether it is true or false .    Provide examples according to the following rules:   If the statement is true , give an example.  If the statement is false and impossible , give a counterexample.  If the statement is false but possible , give both an example and a counterexample.   Your matrices and vectors may be simple, but must satisfy:   Neither nor may be or .  Neither nor may be a scalar multiple of or .   Justify that your examples satisfy the statement using calculations.    Rephrase the statement using common language. For example, the statement in Problem could be rewritten \"If are eigenvectors of corresponding to the same eigenvalue, then and are the same vector\".     Assume throughout that and .     If and , then .        If and , then .           If and , then is linearly independent.        If and is linearly independent, then .        If and , then is an eigenvector of .        If and and , then is an eigenvector of with eigenvalue .     "
+},
+{
+  "id": "ex6-st1",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  If and , then .   "
+},
+{
+  "id": "ex6-st2",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  If and , then .   "
+},
+{
+  "id": "ex6-st3",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  If and , then is linearly independent.   "
+},
+{
+  "id": "ex6-st4",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  If and is linearly independent, then .   "
+},
+{
+  "id": "ex6-st5",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  If and , then is an eigenvector of .   "
+},
+{
+  "id": "ex6-st6",
+  "level": "2",
+  "url": "exploration-6.html#ex6-st6",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  If and and , then is an eigenvector of with eigenvalue .   "
 }
 ]
 
