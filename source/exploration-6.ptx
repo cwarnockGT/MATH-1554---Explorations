@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="exploration-6">
-    <title>Exploration 6, due March 8</title>
+    <title>Exploration 6, due October 18</title>
   <page>
     <p>
         Make sure to familiarize yourself with the Exploration <xref ref="instructions" text="custom"> Instructions </xref> found on the home page.
@@ -50,7 +50,7 @@
 
       <li>
         <p>
-          Rephrase the statement using common language. For example, the statement in <xref ref="ex6-st1"/> could be rewritten "If <m>\vec v_1, \vec v_2</m> are eigenvectors of <m>A</m> corresponding to the same eigenvalue, then <m>\vec v_1</m> and <m>\vec v_2</m> are the same vector".
+          Rephrase the statement using common language. For example, the statement in <xref ref="ex6-st1" text="">Problem</xref> could be rewritten "If <m>\vec v_1, \vec v_2</m> are eigenvectors of <m>A</m> corresponding to the same eigenvalue, then <m>\vec v_1</m> and <m>\vec v_2</m> are the same vector".
         </p>
       </li>
     </ol>
