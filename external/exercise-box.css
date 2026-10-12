@@ -25,6 +25,11 @@
   content: none;
 }
 
+/* print-worksheet.css sets --block-head-color to white */
+.exercise-like:not(.task) > .heading:first-child {
+  color: black;
+}
+
 .exercise-like:not(.task) > .heading > .codenumber::before {
   content: "Problem ";
 }
