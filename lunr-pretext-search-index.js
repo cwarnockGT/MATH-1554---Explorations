@@ -269,6 +269,15 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  If and and , then is an eigenvector of with eigenvalue .   "
+},
+{
+  "id": "exploration-7",
+  "level": "1",
+  "url": "exploration-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Exploration 7, due October 25",
+  "body": " Exploration 7, due October 25   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, you will use the python package panchi to explore the geometry of eigenvectors. You will do all the work in a Jupyter Notebook, which will be provided to you and contains all instructions and code you will need to complete the exploration. The final code in the notebook will generate a PDF of your work, which you will submit to Gradescope.  The notebook is hosted in Google Colab, so you will not need to install any software on your computer. You will need a Google account to access the notebook, and you will need to be logged in to Google to run the notebook. If you do not have a Google account, you can create one for free at https:\/\/accounts.google.com\/signup .  Follow the instructions below to begin the exploration.    Open the Eigenvalues and Eigenvectors exploration notebook .    Follow the setup instructions in the first cell. Begin by creating a copy in your own Google Drive ( File > Save a copy on Drive ).    Open your copy and enter your name in the top cell by double-clicking it.    Run the setup cell once, then work through the exploration cell by cell. Note that you can choose to render the animation using MatPlotLib or Manim. Manim is really cool, but it will take a bit more time to render.    Note that several cells contain ____ for you to fill in. You will need to replace these placeholders with your own code and\/or answers.    When you finish, run the Export to PDF cell to generate a nicely formatted PDF of your work. Note that the first run may take a few minutes while the required setup is completed.    Make sure that the PDF contains your name and that all of the blank spaces have been filled.    Upload the nicely formatted PDF to Gradescope. This is the only file you will submit for this exploration, so there is no handwritten portion.     "
 }
 ]
 
