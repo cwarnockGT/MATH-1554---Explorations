@@ -278,6 +278,69 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Exploration 7, due October 25",
   "body": " Exploration 7, due October 25   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, you will use the python package panchi to explore the geometry of eigenvectors. You will do all the work in a Jupyter Notebook, which will be provided to you and contains all instructions and code you will need to complete the exploration. The final code in the notebook will generate a PDF of your work, which you will submit to Gradescope.  The notebook is hosted in Google Colab, so you will not need to install any software on your computer. You will need a Google account to access the notebook, and you will need to be logged in to Google to run the notebook. If you do not have a Google account, you can create one for free at https:\/\/accounts.google.com\/signup .  Follow the instructions below to begin the exploration.    Open the Eigenvalues and Eigenvectors exploration notebook .    Follow the setup instructions in the first cell. Begin by creating a copy in your own Google Drive ( File > Save a copy on Drive ).    Open your copy and enter your name in the top cell by double-clicking it.    Run the setup cell once, then work through the exploration cell by cell. Note that you can choose to render the animation using MatPlotLib or Manim. Manim is really cool, but it will take a bit more time to render.    Note that several cells contain ____ for you to fill in. You will need to replace these placeholders with your own code and\/or answers.    When you finish, run the Export to PDF cell to generate a nicely formatted PDF of your work. Note that the first run may take a few minutes while the required setup is completed.    Make sure that the PDF contains your name and that all of the blank spaces have been filled.    Upload the nicely formatted PDF to Gradescope. This is the only file you will submit for this exploration, so there is no handwritten portion.     "
+},
+{
+  "id": "exploration-8",
+  "level": "1",
+  "url": "exploration-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Exploration 8, due November 1",
+  "body": " Exploration 8, due November 1   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, we examine how the linear algebra tools developed in , including linear transformations, eigenvalues, and eigenvectors, extend naturally to more abstract vector spaces such as spaces of polynomials.    Let denote the -dimensional vector space of polynomials of degree at most  ; that is, let . It follows that is the 2-dimensional vector space of all linear (and constant) polynomials. Consider the linear transformation defined by . So takes a linear polynomial as an input and produces a linear polynomial as an output. For example, if , then and , so .   Compute the following images of :                         Note: , as expected from linearity.      Coordinate Vectors in Basis    Just as in , we may choose a basis for . Consider the following basis for : We define the coordinate vector of with respect to the basis in the same way we do for . So, if with , its coordinate vector is: This relationship is how we can use our Linear Algebra knowledge about to determine results about the more abstract vector spaces.   Determine the -coordinate vectors of the following vectors. Note that you must first find the images of the vectors before you can find the -coordinate vectors.                     The -matrix of is given by . Determine and find its eigenvalues. Hint: should be a upper triangular matrix.         Eigenvectors of    For each eigenvalue of , find at least one eigenvector.       Recall that acts on polynomials in , not on vectors in .We can convert each of these eigenvectors back into its corresponding element in by remembering that these vectors are actually the -coordinate vector for some polynomial in .  Determine the polynomials and which are represented by the eigenvectors found in .       Verify that the polynomials found in satisfy the eigenvalue equation; that is, verify that .     "
+},
+{
+  "id": "ex-8-part-a",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-a",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let denote the -dimensional vector space of polynomials of degree at most  ; that is, let . It follows that is the 2-dimensional vector space of all linear (and constant) polynomials. Consider the linear transformation defined by . So takes a linear polynomial as an input and produces a linear polynomial as an output. For example, if , then and , so .   Compute the following images of :                        "
+},
+{
+  "id": "ex-8-part-b",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-b",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Just as in , we may choose a basis for . Consider the following basis for : We define the coordinate vector of with respect to the basis in the same way we do for . So, if with , its coordinate vector is: This relationship is how we can use our Linear Algebra knowledge about to determine results about the more abstract vector spaces.   Determine the -coordinate vectors of the following vectors. Note that you must first find the images of the vectors before you can find the -coordinate vectors.                 "
+},
+{
+  "id": "ex-8-part-c",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-c",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The -matrix of is given by . Determine and find its eigenvalues. Hint: should be a upper triangular matrix.    "
+},
+{
+  "id": "ex-8-part-d",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-d",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  For each eigenvalue of , find at least one eigenvector.   "
+},
+{
+  "id": "ex-8-part-e",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-e",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Recall that acts on polynomials in , not on vectors in .We can convert each of these eigenvectors back into its corresponding element in by remembering that these vectors are actually the -coordinate vector for some polynomial in .  Determine the polynomials and which are represented by the eigenvectors found in .   "
+},
+{
+  "id": "ex-8-part-f",
+  "level": "2",
+  "url": "exploration-8.html#ex-8-part-f",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Verify that the polynomials found in satisfy the eigenvalue equation; that is, verify that .   "
 }
 ]
 
