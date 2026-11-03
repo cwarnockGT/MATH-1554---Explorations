@@ -17,7 +17,7 @@
                 <ol marker="(1)">
                     <li>
                         <p>
-                            Find the values of <m>a</m> and <m>b</m> that yeild the regression curve which best fits the points <me>(-3,2), (-1,1), (0,-1), (2,4)</me>. For full points, you need to show how you setup each system and how you formed the augmented matrix for the normal equations. You are <em>not</em> required to solve the systems by hand and can make use of online calculators.
+                            Find the values of <m>a</m> and <m>b</m> that yield the regression curve which best fits the points <me>(-3,2), (-1,1), (0,-1), (2,4)</me>. For full points, you need to show how you setup each system and how you formed the augmented matrix for the normal equations. You are <em>not</em> required to solve the systems by hand and can make use of online calculators.
                         </p>
                     </li>
                     <li>
