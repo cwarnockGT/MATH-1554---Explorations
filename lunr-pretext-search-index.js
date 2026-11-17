@@ -359,6 +359,42 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Exploration 10, due November 15",
   "body": " Exploration 10, due November 15   Make sure to familiarize yourself with the Exploration Instructions found on the home page.  In this exploration, you will use the python package panchi to explore Google's Page Rank algorithm. You will do all the work in a Jupyter Notebook, which will be provided to you and contains all instructions and code you will need to complete the exploration. The final code in the notebook will generate a PDF of your work, which you will submit to Gradescope.  The notebook is hosted in Google Colab, so you will not need to install any software on your computer. You will need a Google account to access the notebook, and you will need to be logged in to Google to run the notebook. If you do not have a Google account, you can create one for free at https:\/\/accounts.google.com\/signup .  Follow the instructions below to begin the exploration.    Open the Google's Page Rank exploration notebook .    Follow the setup instructions in the first cell. Begin by creating a copy in your own Google Drive ( File > Save a copy on Drive ).    Open your copy and enter your name in the top cell by double-clicking it.    Run the setup cell once, then work through the exploration cell by cell.    Note that several cells contain ____ for you to fill in. You will need to replace these placeholders with your own code and\/or answers.    There are also several places to type your predictions, answers or reasoning. Please make sure to fill these in.    When you finish, run the Export to PDF cell to generate a nicely formatted PDF of your work. Note that the first run may take a few minutes while the required setup is completed.    Make sure that the PDF contains your name and that all of the blank spaces have been filled.    Upload the nicely formatted PDF to Gradescope. This is the only file you will submit for this exploration, so there is no handwritten portion.     "
+},
+{
+  "id": "exploration-11",
+  "level": "1",
+  "url": "exploration-11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Exploration 11, due November 22",
+  "body": " Exploration 11, due November 22  Make sure to familiarize yourself with the Exploration Instructions found on the home page.    Pick two random vectors with no zero entries and few repeated numbers.     Compute the matrix which is a matrix.      Fill in the blanks to the sentences below.  The rows of the matrix are scalar multiples of with scalars that come from .  The columns of the matrix are scalar multiples of with scalars that come from .       Let      Find an orthogonal diagonalization where       Write the spectral decomposition of : .      What is the most accurate rank 1 approximation of ?      What is the most accurate rank 2 approximation of ?       Let be the same matrix in .     Write down the quadratic form .      Write the quadratic form as the quadratic form which has no cross-product terms by using the orthogonal diagonalization from Problem 2(a) .      Find a unit vector which attains the maximum .      Find a unit vector which corresponds to your choice of in Problem 3(c) by using the change of variables . Verify that for your choices of and .     "
+},
+{
+  "id": "ex11-part1",
+  "level": "2",
+  "url": "exploration-11.html#ex11-part1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Pick two random vectors with no zero entries and few repeated numbers.     Compute the matrix which is a matrix.      Fill in the blanks to the sentences below.  The rows of the matrix are scalar multiples of with scalars that come from .  The columns of the matrix are scalar multiples of with scalars that come from .    "
+},
+{
+  "id": "ex11-part2",
+  "level": "2",
+  "url": "exploration-11.html#ex11-part2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let      Find an orthogonal diagonalization where       Write the spectral decomposition of : .      What is the most accurate rank 1 approximation of ?      What is the most accurate rank 2 approximation of ?    "
+},
+{
+  "id": "ex11-part3",
+  "level": "2",
+  "url": "exploration-11.html#ex11-part3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let be the same matrix in .     Write down the quadratic form .      Write the quadratic form as the quadratic form which has no cross-product terms by using the orthogonal diagonalization from Problem 2(a) .      Find a unit vector which attains the maximum .      Find a unit vector which corresponds to your choice of in Problem 3(c) by using the change of variables . Verify that for your choices of and .    "
 }
 ]
 
