@@ -20,10 +20,10 @@
     <!-- The next elements say how the levels deep to break up the    -->
     <!-- numbering of the respective elements. Can't be more than the -->
     <!-- @level on divisions above.                                   -->
-      <blocks level="1" />
-      <projects level="1" />
-      <equations level="1" />
-      <footnotes level="1" />
+      <blocks level="0" />
+      <projects level="0" />
+      <equations level="0" />
+      <footnotes level="0" />
 
     </numbering>
 
